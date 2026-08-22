@@ -1,0 +1,58 @@
+name: 블로그 배포
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: 저장소 가져오기
+        uses: actions/checkout@v4
+
+      - name: zip 이 있으면 풀어서 제자리에 놓기
+        run: |
+          if [ -f blog-files.zip ]; then
+            unzip -o -q blog-files.zip -d _tmp
+            cp -r _tmp/blog/. .
+            rm -rf _tmp blog-files.zip
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add -A
+            git commit -m "블로그 파일 설치"
+            git push
+          fi
+
+      - name: Node 준비
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: 부품 내려받기
+        run: npm install --no-audit --no-fund
+
+      - name: 블로그 만들기
+        run: npm run build
+
+      - name: 결과물 올리기
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./dist
+
+      - name: 인터넷에 게시
+        id: deployment
+        uses: actions/deploy-pages@v4
