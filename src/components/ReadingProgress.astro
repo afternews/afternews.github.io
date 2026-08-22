@@ -1,0 +1,55 @@
+---
+/**
+ * 읽기 진행률 막대.
+ * 얼마나 남았는지 보이면 끝까지 읽는 비율이 올라갑니다.
+ * 끝까지 읽은 독자는 다음 글도 읽습니다.
+ *
+ * 동시에 구글 애널리틱스로 스크롤 도달 이벤트(25/50/75/100%)를 보냅니다.
+ * 어떤 글이 실제로 읽히는지 알아야 다음 글을 잘 쓸 수 있습니다.
+ */
+---
+
+<div class="progress" aria-hidden="true"><span id="progress-bar"></span></div>
+
+<script is:inline>
+  (function () {
+    var bar = document.getElementById('progress-bar');
+    if (!bar) return;
+    var sent = {};
+    var marks = [25, 50, 75, 100];
+    var ticking = false;
+
+    function update() {
+      var h = document.documentElement;
+      var max = h.scrollHeight - h.clientHeight;
+      var pct = max > 0 ? Math.min(100, (h.scrollTop / max) * 100) : 0;
+      bar.style.width = pct + '%';
+
+      for (var i = 0; i < marks.length; i++) {
+        var m = marks[i];
+        if (pct >= m && !sent[m]) {
+          sent[m] = true;
+          if (typeof window.gtag === 'function') {
+            window.gtag('event', 'scroll_depth', {
+              percent: m,
+              page_path: location.pathname,
+            });
+          }
+        }
+      }
+      ticking = false;
+    }
+
+    window.addEventListener(
+      'scroll',
+      function () {
+        if (!ticking) {
+          ticking = true;
+          requestAnimationFrame(update);
+        }
+      },
+      { passive: true }
+    );
+    update();
+  })();
+</script>

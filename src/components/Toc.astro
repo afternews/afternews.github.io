@@ -1,0 +1,79 @@
+---
+/**
+ * 목차.
+ *
+ * 긴 글에서 독자가 "이 글이 얼마나 길고 무슨 이야기를 하는지" 먼저 파악하게 해
+ * 이탈률을 낮춥니다. 데스크톱에서는 오른쪽에 따라다니고, 모바일에서는
+ * 접었다 펴는 형태로 글 위에 놓입니다.
+ */
+import type { MarkdownHeading } from 'astro';
+
+interface Props {
+  headings: MarkdownHeading[];
+}
+const { headings } = Astro.props;
+// h2, h3만 목차에 넣습니다 (h4 이하는 너무 잘게 쪼개집니다)
+const items = headings.filter((h) => h.depth === 2 || h.depth === 3);
+---
+
+{
+  items.length >= 2 && (
+    <>
+      {/* 모바일: 접이식 */}
+      <details class="toc toc--mobile">
+        <summary>목차 · {items.length}개 단락</summary>
+        <ol>
+          {items.map((h) => (
+            <li class={h.depth === 3 ? 'toc__sub' : ''}>
+              <a href={`#${h.slug}`}>{h.text}</a>
+            </li>
+          ))}
+        </ol>
+      </details>
+
+      {/* 데스크톱: 사이드바에서 따라다님 */}
+      <nav class="toc toc--desktop" aria-label="목차">
+        <p class="toc__label">목차</p>
+        <ol>
+          {items.map((h) => (
+            <li class={h.depth === 3 ? 'toc__sub' : ''}>
+              <a href={`#${h.slug}`} data-toc-link>
+                {h.text}
+              </a>
+            </li>
+          ))}
+        </ol>
+      </nav>
+
+      <script is:inline>
+        (function () {
+          var links = document.querySelectorAll('[data-toc-link]');
+          if (!links.length) return;
+          var map = {};
+          links.forEach(function (a) {
+            var id = decodeURIComponent(a.getAttribute('href').slice(1));
+            var el = document.getElementById(id);
+            if (el) map[id] = a;
+          });
+          var ids = Object.keys(map);
+          if (!ids.length) return;
+          var obs = new IntersectionObserver(
+            function (entries) {
+              entries.forEach(function (e) {
+                if (e.isIntersecting) {
+                  ids.forEach(function (id) {
+                    map[id].classList.toggle('is-active', id === e.target.id);
+                  });
+                }
+              });
+            },
+            { rootMargin: '-10% 0px -80% 0px' }
+          );
+          ids.forEach(function (id) {
+            obs.observe(document.getElementById(id));
+          });
+        })();
+      </script>
+    </>
+  )
+}

@@ -1,0 +1,229 @@
+---
+import { render } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import AdSlot from '../../components/AdSlot.astro';
+import InlineAds from '../../components/InlineAds.astro';
+import Toc from '../../components/Toc.astro';
+import SeriesBox from '../../components/SeriesBox.astro';
+import ShareButtons from '../../components/ShareButtons.astro';
+import ReadingProgress from '../../components/ReadingProgress.astro';
+import { SITE } from '../../site.config';
+import {
+  getPublishedPosts,
+  formatDate,
+  readingTime,
+  relatedPosts,
+  tagToSlug,
+  type Post,
+} from '../../lib/posts';
+
+export async function getStaticPaths() {
+  const posts = await getPublishedPosts();
+  return posts.map((post, i) => ({
+    params: { slug: post.id },
+    props: {
+      post,
+      newer: posts[i - 1] ?? null,
+      older: posts[i + 1] ?? null,
+    },
+  }));
+}
+
+interface Props {
+  post: Post;
+  newer: Post | null;
+  older: Post | null;
+}
+
+const { post, newer, older } = Astro.props;
+const { Content, headings } = await render(post);
+const all = await getPublishedPosts();
+const related = relatedPosts(post, all);
+const d = post.data;
+const pageUrl = new URL(`/posts/${post.id}`, Astro.site ?? SITE.url).href;
+---
+
+<Base
+  title={d.title}
+  description={d.description}
+  type="article"
+  image={d.cover}
+  publishedTime={d.pubDate}
+  modifiedTime={d.updatedDate}
+  tags={[...d.tags]}
+>
+  <ReadingProgress />
+
+  <article class="wrap">
+    <header class="post-header narrow">
+      <h1>{d.title}</h1>
+      <p class="post-header__desc">{d.description}</p>
+      <div class="post-header__meta">
+        <span>{SITE.author}</span>
+        <span aria-hidden="true">·</span>
+        <time datetime={d.pubDate.toISOString()}>{formatDate(d.pubDate)}</time>
+        {
+          d.updatedDate && (
+            <>
+              <span aria-hidden="true">·</span>
+              <span>{formatDate(d.updatedDate)} 수정</span>
+            </>
+          )
+        }
+        <span aria-hidden="true">·</span>
+        <span>{readingTime(post.body)}분 분량</span>
+      </div>
+      {
+        d.tags.length > 0 && (
+          <div class="tag-row" style="margin-top:1rem">
+            {d.tags.map((t) => (
+              <a class="tag-chip" href={`/tags/${tagToSlug(t)}`}>
+                {t}
+              </a>
+            ))}
+          </div>
+        )
+      }
+    </header>
+
+    {
+      d.cover && (
+        <figure class="narrow" style="margin-top:2rem">
+          <img src={d.cover} alt={d.coverAlt ?? ''} loading="eager" />
+          {d.coverAlt && <figcaption>{d.coverAlt}</figcaption>}
+        </figure>
+      )
+    }
+
+    {/* 본문 + 오른쪽 사이드바(데스크톱에서만) */}
+    <div class="post-grid">
+      <div class="post-main">
+        <SeriesBox post={post} />
+        <Toc headings={headings} />
+
+        <AdSlot slot="articleTop" />
+
+        <div class="prose">
+          <Content />
+        </div>
+        <InlineAds />
+
+        {
+          d.references && d.references.length > 0 && (
+            <div class="origin-box">
+              <div class="origin-box__label">이 글에서 언급한 공개 자료</div>
+              <ul class="origin-box__list">
+                {d.references.map((ref) => (
+                  <li>
+                    <a href={ref.url} target="_blank" rel="noopener">
+                      {ref.title}
+                    </a>
+                    {(ref.source || ref.date) && (
+                      <span class="origin-box__outlet">
+                        {[ref.source, ref.date && formatDate(ref.date)]
+                          .filter(Boolean)
+                          .join(' · ')}
+                      </span>
+                    )}
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )
+        }
+
+        <ShareButtons title={d.title} url={pageUrl} />
+
+        <AdSlot slot="articleBottom" />
+
+        <div class="post-foot">
+          <div class="author-card">
+            <div>
+              <div class="author-card__name">{SITE.author}</div>
+              <p class="author-card__bio">
+                공개된 자료를 놓고 사건이 아니라 구조를 읽습니다. 의견이나 정정 요청은
+                <a href="/contact">문의</a>로 보내 주세요.
+              </p>
+            </div>
+          </div>
+
+          <p class="disclaimer">
+            {SITE.disclosure.disclaimer}
+            {
+              SITE.disclosure.showPrinciplesPage && (
+                <>
+                  {' '}
+                  <a href="/principles">운영 원칙 보기</a>
+                </>
+              )
+            }
+          </p>
+
+          {
+            related.length > 0 && (
+              <section>
+                <p class="section-label">이어서 읽을 글</p>
+                <ul class="post-list post-list--compact">
+                  {related.map((p) => (
+                    <li class="post-item">
+                      <a href={`/posts/${p.id}`}>
+                        <div class="post-item__meta">
+                          <time datetime={p.data.pubDate.toISOString()}>
+                            {formatDate(p.data.pubDate)}
+                          </time>
+                          <span aria-hidden="true">·</span>
+                          <span>{readingTime(p.body)}분</span>
+                        </div>
+                        <h2 class="post-item__title" style="font-size:1.1rem">
+                          {p.data.title}
+                        </h2>
+                        <p class="post-item__desc">{p.data.description}</p>
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+              </section>
+            )
+          }
+
+          <nav class="pager" aria-label="이전 다음 글">
+            {
+              older ? (
+                <a href={`/posts/${older.id}`}>
+                  <small>이전 글</small>
+                  <span>{older.data.title}</span>
+                </a>
+              ) : (
+                <span />
+              )
+            }
+            {
+              newer && (
+                <a class="next" href={`/posts/${newer.id}`}>
+                  <small>다음 글</small>
+                  <span>{newer.data.title}</span>
+                </a>
+              )
+            }
+          </nav>
+        </div>
+      </div>
+
+      <aside class="post-side">
+        <div class="post-side__sticky">
+          <div class="toc-mount"></div>
+          <AdSlot slot="sidebar" format="vertical" />
+        </div>
+      </aside>
+    </div>
+  </article>
+
+  <script is:inline>
+    // 데스크톱에서는 목차를 오른쪽 사이드바로 옮깁니다 (본문 폭을 지키기 위해)
+    (function () {
+      var toc = document.querySelector('.toc--desktop');
+      var mount = document.querySelector('.toc-mount');
+      if (toc && mount) mount.appendChild(toc);
+    })();
+  </script>
+</Base>

@@ -1,0 +1,82 @@
+---
+/**
+ * 본문 중간 광고 자동 삽입.
+ *
+ * 글을 쓸 때 광고 위치를 신경 쓸 필요가 전혀 없습니다.
+ * 이 스크립트가 본문의 문단을 세어서 알아서 자리를 만들고 광고를 넣습니다.
+ *
+ * 배치 규칙을 바꾸려면 아래 세 숫자만 고치세요.
+ *   EVERY          문단 몇 개마다 넣을지 (작을수록 광고가 많아짐)
+ *   MAX            한 글에 최대 몇 개까지 (3개 초과는 정책상·경험상 권하지 않음)
+ *   MIN_PARAGRAPHS 이보다 짧은 글에는 넣지 않음
+ *
+ * 기본값(4문단마다·최대 3개)이 수익과 읽는 경험의 균형점입니다.
+ */
+import { SITE } from '../site.config';
+
+const EVERY = 4;
+const MAX = 3;
+const MIN_PARAGRAPHS = 8;
+
+const client = SITE.adsense.client;
+const slotId = SITE.adsense.slots.inArticle;
+const isDev = import.meta.env.DEV;
+---
+
+<script
+  is:inline
+  define:vars={{ client, slotId, isDev, EVERY, MAX, MIN_PARAGRAPHS }}
+>
+  (function () {
+    var prose = document.querySelector('.prose');
+    if (!prose) return;
+
+    // 본문 최상위 문단만 셉니다 (인용문 안의 문단 등은 제외)
+    var paragraphs = Array.prototype.filter.call(prose.children, function (el) {
+      return el.tagName === 'P';
+    });
+    if (paragraphs.length < MIN_PARAGRAPHS) return;
+
+    var made = 0;
+    for (var n = EVERY; n < paragraphs.length && made < MAX; n += EVERY) {
+      var after = paragraphs[n - 1];
+      var box = document.createElement('div');
+      box.className = 'ad-inline';
+      after.parentNode.insertBefore(box, after.nextSibling);
+      made++;
+    }
+
+    var boxes = prose.querySelectorAll('.ad-inline');
+
+    if (isDev) {
+      boxes.forEach(function (el) {
+        el.innerHTML =
+          '<div class="ad-placeholder">본문 중간 광고 자리 (개발 중에는 표시만)</div>';
+      });
+      return;
+    }
+
+    if (!client || !slotId) return;
+
+    boxes.forEach(function (el) {
+      var label = document.createElement('div');
+      label.className = 'ad-slot__label';
+      label.textContent = '광고';
+
+      var ins = document.createElement('ins');
+      ins.className = 'adsbygoogle';
+      ins.style.display = 'block';
+      ins.style.textAlign = 'center';
+      ins.setAttribute('data-ad-client', client);
+      ins.setAttribute('data-ad-slot', slotId);
+      ins.setAttribute('data-ad-format', 'fluid');
+      ins.setAttribute('data-ad-layout', 'in-article');
+
+      el.appendChild(label);
+      el.appendChild(ins);
+      try {
+        (window.adsbygoogle = window.adsbygoogle || []).push({});
+      } catch (e) {}
+    });
+  })();
+</script>

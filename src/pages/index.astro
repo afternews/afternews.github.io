@@ -1,0 +1,120 @@
+---
+import Base from '../layouts/Base.astro';
+import PostList from '../components/PostList.astro';
+import AdSlot from '../components/AdSlot.astro';
+import { SITE } from '../site.config';
+import {
+  getPublishedPosts,
+  getFeaturedPosts,
+  getAllTags,
+  getAllSeries,
+  tagToSlug,
+  formatDate,
+  readingTime,
+} from '../lib/posts';
+
+const posts = await getPublishedPosts();
+const featured = await getFeaturedPosts(2);
+const featuredIds = new Set(featured.map((p) => p.id));
+const recent = posts.filter((p) => !featuredIds.has(p.id)).slice(0, 8);
+const tags = (await getAllTags()).slice(0, 12);
+const series = await getAllSeries();
+---
+
+<Base title={SITE.title} description={SITE.description}>
+  <section class="wrap hero">
+    <h1>{SITE.tagline}</h1>
+    <p>{SITE.description}</p>
+    <p class="hero__links">
+      <a href="/posts">전체 글</a>
+      <span aria-hidden="true"> · </span>
+      <a href="/search">검색</a>
+      <span aria-hidden="true"> · </span>
+      <a href="/rss.xml">RSS 구독</a>
+    </p>
+  </section>
+
+  <div class="wrap" style="padding-top:3rem">
+    {
+      featured.length > 0 && (
+        <section class="featured">
+          <p class="section-label">먼저 읽어 보세요</p>
+          <div class="featured__grid">
+            {featured.map((p) => (
+              <a class="featured__card" href={`/posts/${p.id}`}>
+                <div class="post-item__meta">
+                  <time datetime={p.data.pubDate.toISOString()}>
+                    {formatDate(p.data.pubDate)}
+                  </time>
+                  <span aria-hidden="true">·</span>
+                  <span>{readingTime(p.body)}분</span>
+                </div>
+                <h2>{p.data.title}</h2>
+                <p>{p.data.description}</p>
+              </a>
+            ))}
+          </div>
+        </section>
+      )
+    }
+
+    {
+      series.length > 0 && (
+        <section class="series-index">
+          <p class="section-label">연재</p>
+          <ul>
+            {series.map((s) => (
+              <li>
+                <a href={`/series/${tagToSlug(s.name)}`}>
+                  {s.name} <span>{s.count}편</span>
+                </a>
+              </li>
+            ))}
+          </ul>
+        </section>
+      )
+    }
+
+    {
+      tags.length > 0 && (
+        <div class="tag-row" style="margin-bottom:2.5rem">
+          {tags.map((t) => (
+            <a class="tag-chip" href={`/tags/${tagToSlug(t.tag)}`}>
+              {t.tag} <span style="opacity:.6">{t.count}</span>
+            </a>
+          ))}
+        </div>
+      )
+    }
+
+    <p class="section-label">최근 글</p>
+    {
+      recent.length > 0 ? (
+        <PostList posts={recent} />
+      ) : (
+        <p style="color:var(--ink-faint)">
+          아직 발행된 글이 없습니다. <code>src/content/posts/</code> 폴더에 마크다운 파일을
+          추가해 보세요.
+        </p>
+      )
+    }
+
+    {
+      posts.length > recent.length + featured.length && (
+        <p style="margin-top:2.5rem">
+          <a href="/posts">전체 글 {posts.length}편 보기 →</a>
+        </p>
+      )
+    }
+
+    <AdSlot slot="articleBottom" />
+
+    <section class="subscribe">
+      <h3>새 글을 놓치지 않으려면</h3>
+      <p>
+        RSS 리더에 <a href="/rss.xml">이 주소</a>를 등록해 두면 새 글이 올라올 때마다 바로
+        받아보실 수 있습니다. 북마크해 두셔도 좋습니다.
+      </p>
+    </section>
+  </div>
+</Base>

@@ -1,0 +1,54 @@
+---
+/**
+ * 애드센스 광고 자리.
+ *
+ * - site.config.ts 의 adsense.client 가 비어 있으면  → 아무것도 렌더링하지 않음
+ * - client 는 있는데 해당 slot ID 가 비어 있으면      → 자동 광고에 맡기고 비워 둠
+ * - 둘 다 있으면                                      → 실제 광고 단위 출력
+ *
+ * 개발 중에는 (npm run dev) 광고 대신 회색 자리 표시가 보입니다.
+ */
+import { SITE } from '../site.config';
+
+type SlotName = keyof typeof SITE.adsense.slots;
+
+interface Props {
+  slot: SlotName;
+  /** 'auto' = 반응형, 'fluid' = 인피드/기사 내, 'vertical' = 세로 사이드바 */
+  format?: 'auto' | 'fluid' | 'vertical';
+  label?: boolean;
+  layout?: string;
+}
+
+const { slot, format = 'auto', label = true, layout } = Astro.props;
+const client = SITE.adsense.client;
+const slotId = SITE.adsense.slots[slot];
+const isDev = import.meta.env.DEV;
+---
+
+{
+  isDev ? (
+    <aside class={`ad-slot ad-slot--${slot}`} aria-hidden="true">
+      <div class="ad-placeholder">
+        광고 자리 · {slot}
+        {slotId ? ` (slot ${slotId})` : ' (슬롯 ID 미설정 — 자동 광고에 맡김)'}
+      </div>
+    </aside>
+  ) : client && slotId ? (
+    <aside class={`ad-slot ad-slot--${slot}`}>
+      {label && <div class="ad-slot__label">광고</div>}
+      <ins
+        class="adsbygoogle"
+        style="display:block"
+        data-ad-client={client}
+        data-ad-slot={slotId}
+        data-ad-format={format}
+        data-ad-layout-key={layout}
+        data-full-width-responsive="true"
+      />
+      <script is:inline>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+      </script>
+    </aside>
+  ) : null
+}

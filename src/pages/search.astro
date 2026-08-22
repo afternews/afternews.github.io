@@ -1,0 +1,146 @@
+---
+import Base from '../layouts/Base.astro';
+import AdSlot from '../components/AdSlot.astro';
+---
+
+<Base
+  title="글 검색"
+  description="이 블로그의 글을 제목·요약·본문에서 찾습니다."
+  noindex
+>
+  <div class="wrap narrow">
+    <header class="page-header">
+      <h1>글 검색</h1>
+      <p>제목, 요약, 본문에서 찾습니다.</p>
+    </header>
+
+    <form class="search-form" role="search" onsubmit="return false">
+      <input
+        type="search"
+        id="q"
+        name="q"
+        placeholder="검색어를 입력하세요"
+        autocomplete="off"
+        autofocus
+        aria-label="검색어"
+      />
+    </form>
+
+    <p id="search-status" class="search-status">검색어를 입력해 주세요.</p>
+    <ul class="post-list" id="search-results"></ul>
+
+    <AdSlot slot="articleBottom" />
+  </div>
+</Base>
+
+<script is:inline>
+  (function () {
+    var input = document.getElementById('q');
+    var status = document.getElementById('search-status');
+    var results = document.getElementById('search-results');
+    var data = null;
+    var loading = false;
+
+    function load() {
+      if (data || loading) return Promise.resolve();
+      loading = true;
+      return fetch('/search-index.json')
+        .then(function (r) {
+          return r.json();
+        })
+        .then(function (j) {
+          data = j;
+          loading = false;
+        })
+        .catch(function () {
+          loading = false;
+          status.textContent = '검색 자료를 불러오지 못했습니다.';
+        });
+    }
+
+    function escapeHtml(s) {
+      return s.replace(/[&<>"']/g, function (c) {
+        return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c];
+      });
+    }
+
+    function snippet(body, q) {
+      var i = body.toLowerCase().indexOf(q.toLowerCase());
+      if (i < 0) return body.slice(0, 120) + '…';
+      var start = Math.max(0, i - 50);
+      return (start > 0 ? '…' : '') + body.slice(start, start + 150) + '…';
+    }
+
+    function score(item, q) {
+      var lq = q.toLowerCase();
+      var s = 0;
+      if (item.t.toLowerCase().indexOf(lq) > -1) s += 10;
+      if (item.d.toLowerCase().indexOf(lq) > -1) s += 5;
+      if (item.s && item.s.toLowerCase().indexOf(lq) > -1) s += 4;
+      for (var i = 0; i < item.g.length; i++) {
+        if (item.g[i].toLowerCase().indexOf(lq) > -1) s += 3;
+      }
+      if (item.b.toLowerCase().indexOf(lq) > -1) s += 1;
+      return s;
+    }
+
+    function run() {
+      var q = input.value.trim();
+      results.innerHTML = '';
+      if (q.length < 2) {
+        status.textContent = '두 글자 이상 입력해 주세요.';
+        return;
+      }
+      load().then(function () {
+        if (!data) return;
+        var hits = data
+          .map(function (item) {
+            return { item: item, s: score(item, q) };
+          })
+          .filter(function (x) {
+            return x.s > 0;
+          })
+          .sort(function (a, b) {
+            return b.s - a.s;
+          })
+          .slice(0, 30);
+
+        status.textContent = hits.length
+          ? '"' + q + '" 검색 결과 ' + hits.length + '건'
+          : '"' + q + '"에 해당하는 글이 없습니다.';
+
+        results.innerHTML = hits
+          .map(function (h) {
+            var it = h.item;
+            return (
+              '<li class="post-item"><a href="' +
+              it.u +
+              '"><div class="post-item__meta">' +
+              it.p +
+              (it.s ? ' · 연재 ' + escapeHtml(it.s) : '') +
+              '</div><h2 class="post-item__title" style="font-size:1.15rem">' +
+              escapeHtml(it.t) +
+              '</h2><p class="post-item__desc">' +
+              escapeHtml(snippet(it.b, q)) +
+              '</p></a></li>'
+            );
+          })
+          .join('');
+      });
+    }
+
+    var timer;
+    input.addEventListener('input', function () {
+      clearTimeout(timer);
+      timer = setTimeout(run, 180);
+    });
+    input.addEventListener('focus', load);
+
+    // 주소에 ?q=... 가 있으면 바로 검색
+    var initial = new URLSearchParams(location.search).get('q');
+    if (initial) {
+      input.value = initial;
+      run();
+    }
+  })();
+</script>

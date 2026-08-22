@@ -1,0 +1,36 @@
+---
+import Base from '../../layouts/Base.astro';
+import PostList from '../../components/PostList.astro';
+import { getAllSeries, getSeriesPosts, tagToSlug, type Post } from '../../lib/posts';
+
+export async function getStaticPaths() {
+  const series = await getAllSeries();
+  const out = [];
+  for (const s of series) {
+    out.push({
+      params: { name: tagToSlug(s.name) },
+      props: { name: s.name, posts: await getSeriesPosts(s.name) },
+    });
+  }
+  return out;
+}
+
+interface Props {
+  name: string;
+  posts: Post[];
+}
+const { name, posts } = Astro.props;
+---
+
+<Base
+  title={`${name} — 연재`}
+  description={`'${name}' 연재 ${posts.length}편을 순서대로 모았습니다.`}
+>
+  <div class="wrap">
+    <header class="page-header">
+      <h1>{name}</h1>
+      <p>연재 {posts.length}편. 순서대로 읽으시면 됩니다.</p>
+    </header>
+    <PostList posts={posts} adAfter={0} />
+  </div>
+</Base>

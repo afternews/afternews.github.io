@@ -1,0 +1,32 @@
+---
+import { SITE } from '../site.config';
+const year = new Date().getFullYear();
+const socials = [
+  SITE.social.x && { label: 'X', href: `https://x.com/${SITE.social.x}` },
+  SITE.social.instagram && {
+    label: '인스타그램',
+    href: `https://instagram.com/${SITE.social.instagram}`,
+  },
+  SITE.social.threads && {
+    label: '스레드',
+    href: `https://threads.net/@${SITE.social.threads}`,
+  },
+].filter(Boolean) as { label: string; href: string }[];
+---
+
+<footer class="site-footer">
+  <div class="wrap site-footer__row">
+    <p>© {year} {SITE.author}. 모든 글의 저작권은 글쓴이에게 있습니다.</p>
+    <nav class="site-footer__links" aria-label="사이트 정보">
+      <a href="/about">소개</a>
+      {SITE.disclosure.showPrinciplesPage && <a href="/principles">운영 원칙</a>}
+      <a href="/contact">문의</a>
+      <a href="/privacy">개인정보처리방침</a>
+      <a href="/rss.xml">RSS</a>
+      {socials.map((s) => <a href={s.href} rel="me noopener" target="_blank">{s.label}</a>)}
+    </nav>
+  </div>
+  <div class="wrap">
+    <p class="site-footer__disclaimer">{SITE.disclosure.disclaimer}</p>
+  </div>
+</footer>

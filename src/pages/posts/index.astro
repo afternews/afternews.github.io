@@ -1,0 +1,57 @@
+---
+import Base from '../../layouts/Base.astro';
+import PostList from '../../components/PostList.astro';
+import Pagination from '../../components/Pagination.astro';
+import { getPublishedPosts, getAllTags, getAllSeries, tagToSlug } from '../../lib/posts';
+import { PER_PAGE } from '../../lib/config';
+
+const all = await getPublishedPosts();
+const tags = await getAllTags();
+const series = await getAllSeries();
+const totalPages = Math.max(1, Math.ceil(all.length / PER_PAGE));
+const posts = all.slice(0, PER_PAGE);
+---
+
+<Base
+  title="전체 글"
+  description="지금까지 쓴 글 전체 목록입니다. 주제별·연재별로도 모아 볼 수 있습니다."
+>
+  <div class="wrap">
+    <header class="page-header">
+      <h1>전체 글</h1>
+      <p>모두 {all.length}편. <a href="/search">글 검색</a></p>
+    </header>
+
+    {
+      series.length > 0 && (
+        <section class="series-index">
+          <p class="section-label">연재</p>
+          <ul>
+            {series.map((s) => (
+              <li>
+                <a href={`/series/${tagToSlug(s.name)}`}>
+                  {s.name} <span>{s.count}편</span>
+                </a>
+              </li>
+            ))}
+          </ul>
+        </section>
+      )
+    }
+
+    {
+      tags.length > 0 && (
+        <div class="tag-row" style="margin-bottom:2.5rem">
+          {tags.map((t) => (
+            <a class="tag-chip" href={`/tags/${tagToSlug(t.tag)}`}>
+              {t.tag} <span style="opacity:.6">{t.count}</span>
+            </a>
+          ))}
+        </div>
+      )
+    }
+
+    <PostList posts={posts} adAfter={5} />
+    <Pagination current={1} total={totalPages} />
+  </div>
+</Base>

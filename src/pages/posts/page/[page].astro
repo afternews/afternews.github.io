@@ -1,0 +1,43 @@
+---
+import Base from '../../../layouts/Base.astro';
+import PostList from '../../../components/PostList.astro';
+import Pagination from '../../../components/Pagination.astro';
+import { getPublishedPosts, type Post } from '../../../lib/posts';
+import { PER_PAGE } from '../../../lib/config';
+
+export async function getStaticPaths() {
+  const all = await getPublishedPosts();
+  const totalPages = Math.max(1, Math.ceil(all.length / PER_PAGE));
+  const paths = [];
+  // 1페이지는 /posts 가 담당하므로 2페이지부터 생성합니다
+  for (let n = 2; n <= totalPages; n++) {
+    paths.push({
+      params: { page: String(n) },
+      props: {
+        posts: all.slice((n - 1) * PER_PAGE, n * PER_PAGE),
+        current: n,
+        total: totalPages,
+      },
+    });
+  }
+  return paths;
+}
+
+interface Props {
+  posts: Post[];
+  current: number;
+  total: number;
+}
+const { posts, current, total } = Astro.props;
+---
+
+<Base title={`전체 글 · ${current}페이지`} description="글 목록입니다.">
+  <div class="wrap">
+    <header class="page-header">
+      <h1>전체 글</h1>
+      <p>{current} / {total} 페이지 · <a href="/search">글 검색</a></p>
+    </header>
+    <PostList posts={posts} adAfter={5} />
+    <Pagination current={current} total={total} />
+  </div>
+</Base>

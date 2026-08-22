@@ -1,0 +1,16 @@
+node_modules/
+dist/
+.astro/
+.DS_Store
+.env
+.env.production
+.vercel
+.netlify
+npm-debug.log*
+
+# 개인 문서 — 공개 저장소에 올라가면 안 됩니다
+시작하기.md
+리스크관리.md
+수익화-가이드.md
+blog-checklist.html
+skill/

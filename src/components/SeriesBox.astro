@@ -1,0 +1,44 @@
+---
+/**
+ * 연재 묶음 안내.
+ * "이 글은 3부작 중 2편" 이라고 보여 주면 나머지 편을 읽을 확률이 크게 올라갑니다.
+ * 방문당 조회수를 늘리는 가장 효과적인 장치입니다.
+ */
+import { getSeriesPosts, type Post } from '../lib/posts';
+
+interface Props {
+  post: Post;
+}
+const { post } = Astro.props;
+const name = post.data.series?.name;
+const list = name ? await getSeriesPosts(name) : [];
+const currentIndex = list.findIndex((p) => p.id === post.id);
+---
+
+{
+  name && list.length > 1 && (
+    <aside class="series-box">
+      <p class="series-box__label">연재 · {name}</p>
+      <ol class="series-box__list">
+        {list.map((p, i) => (
+          <li class={p.id === post.id ? 'is-current' : ''}>
+            <span class="series-box__num">{i + 1}</span>
+            {p.id === post.id ? (
+              <span>{p.data.title} <em>— 지금 보는 글</em></span>
+            ) : (
+              <a href={`/posts/${p.id}`}>{p.data.title}</a>
+            )}
+          </li>
+        ))}
+      </ol>
+      {currentIndex > -1 && currentIndex < list.length - 1 && (
+        <p class="series-box__next">
+          다음 편 →{' '}
+          <a href={`/posts/${list[currentIndex + 1].id}`}>
+            {list[currentIndex + 1].data.title}
+          </a>
+        </p>
+      )}
+    </aside>
+  )
+}

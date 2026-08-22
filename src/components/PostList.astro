@@ -1,0 +1,51 @@
+---
+import { formatDate, readingTime, type Post } from '../lib/posts';
+import AdSlot from './AdSlot.astro';
+
+interface Props {
+  posts: Post[];
+  /** 목록 중간(N번째 뒤)에 광고를 한 번 넣습니다. 0이면 넣지 않음 */
+  adAfter?: number;
+}
+const { posts, adAfter = 4 } = Astro.props;
+---
+
+<ul class="post-list">
+  {
+    posts.map((post, i) => (
+      <>
+        <li class="post-item">
+          <a href={`/posts/${post.id}`}>
+            <div class="post-item__meta">
+              <time datetime={post.data.pubDate.toISOString()}>
+                {formatDate(post.data.pubDate)}
+              </time>
+              <span aria-hidden="true">·</span>
+              <span>{readingTime(post.body)}분 분량</span>
+              {post.data.series && (
+                <>
+                  <span aria-hidden="true">·</span>
+                  <span>연재 · {post.data.series.name} {post.data.series.order}편</span>
+                </>
+              )}
+            </div>
+            <h2 class="post-item__title">{post.data.title}</h2>
+            <p class="post-item__desc">{post.data.description}</p>
+            {post.data.tags.length > 0 && (
+              <div class="tag-row">
+                {post.data.tags.map((t) => (
+                  <span class="tag-chip">{t}</span>
+                ))}
+              </div>
+            )}
+          </a>
+        </li>
+        {adAfter > 0 && i === adAfter - 1 && posts.length > adAfter + 1 && (
+          <li>
+            <AdSlot slot="listInfeed" format="fluid" />
+          </li>
+        )}
+      </>
+    ))
+  }
+</ul>

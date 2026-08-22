@@ -1,0 +1,39 @@
+---
+/**
+ * 가벼운 쿠키 안내 배너.
+ *
+ * ⚠️ 유럽(EEA)·영국 방문자에게는 이것만으로 부족합니다.
+ *    애드센스 관리화면 → [개인정보 보호 및 메시지] 에서 구글이 제공하는
+ *    무료 동의 메시지(GDPR/CCPA)를 켜 주세요. 그게 공식 인증 CMP입니다.
+ *    이 배너는 국내 방문자용 안내 역할입니다.
+ */
+---
+
+<div class="consent" id="cookie-notice" hidden>
+  <div class="consent__inner">
+    <p>
+      이 사이트는 방문 통계와 광고 게재를 위해 쿠키를 사용합니다. 자세한 내용은
+      <a href="/privacy">개인정보처리방침</a>에서 확인하실 수 있습니다.
+    </p>
+    <button type="button" id="cookie-notice-ok">확인</button>
+  </div>
+</div>
+
+<script is:inline>
+  (function () {
+    var KEY = 'cookie-notice-ack';
+    var el = document.getElementById('cookie-notice');
+    if (!el) return;
+    var acked = false;
+    try {
+      acked = localStorage.getItem(KEY) === '1';
+    } catch (e) {}
+    if (!acked) el.hidden = false;
+    document.getElementById('cookie-notice-ok')?.addEventListener('click', function () {
+      el.hidden = true;
+      try {
+        localStorage.setItem(KEY, '1');
+      } catch (e) {}
+    });
+  })();
+</script>
