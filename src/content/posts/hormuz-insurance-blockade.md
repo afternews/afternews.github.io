@@ -82,7 +82,44 @@ references:
 
 이 좁은 길로 전 세계 해상 원유의 약 20~25%, LNG의 약 20%가 지나갑니다. 사우디아라비아, 아랍에미리트, 쿠웨이트, 카타르, 이라크가 수출하는 기름과 가스가 전부 여기를 통과합니다.
 
+<figure style="margin:2.2rem 0;">
+  <figcaption style="font-size:.9rem;opacity:.75;margin-bottom:.8rem;">호르무즈 해협 개념도 &mdash; 축척과 해안선은 단순화했습니다</figcaption>
+<svg viewBox="0 0 820 440" role="img" aria-label="호르무즈 해협 개념도" style="width:100%;height:auto;display:block;">
+  <defs>
+    <marker id="hzArrow" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="5.5" markerHeight="5.5" orient="auto-start-reverse">
+      <path d="M0,1.5 L8.5,5 L0,8.5 z" fill="currentColor"/>
+    </marker>
+  </defs>
+  <path d="M0,0 H820 V108 L720,116 L650,110 L580,118 L520,136 L470,158 L420,136 L350,120 L270,102 L180,112 L90,98 L0,106 Z"
+        fill="currentColor" opacity="0.09" stroke="currentColor" stroke-opacity="0.3" stroke-width="2.5"/>
+  <path d="M0,440 H820 V336 L760,342 L700,330 L640,336 L600,330 L560,320 L534,296 L516,252 L505,226 L470,220 L440,224 L424,254 L406,294 L380,316 L320,328 L240,336 L160,326 L80,338 L0,330 Z"
+        fill="currentColor" opacity="0.09" stroke="currentColor" stroke-opacity="0.3" stroke-width="2.5"/>
+  <path d="M36,206 C200,220 350,212 462,190 C580,180 670,198 776,206" fill="none" stroke="currentColor" stroke-width="3.5" opacity="0.9" marker-end="url(#hzArrow)"/>
+  <path d="M36,286 C210,304 366,292 468,202 C580,258 680,288 776,298" fill="none" stroke="currentColor" stroke-width="3.5" stroke-dasharray="12 10" opacity="0.5" marker-end="url(#hzArrow)"/>
+  <path d="M470,132 V152" stroke="currentColor" stroke-width="2.5" opacity="0.5"/>
+  <g font-size="24" fill="currentColor" font-family="inherit">
+    <text x="30" y="62" opacity="0.75">이란</text>
+    <text x="30" y="398" opacity="0.75">아랍에미리트</text>
+    <text x="470" y="330" opacity="0.75" text-anchor="middle">오만</text>
+    <text x="30" y="168" opacity="0.5">페르시아만</text>
+    <text x="790" y="150" opacity="0.5" text-anchor="end">오만만 → 인도양</text>
+    <text x="470" y="122" opacity="0.8" text-anchor="middle">가장 좁은 곳 39km</text>
+    <text x="196" y="190" opacity="0.7">기존 항로</text>
+    <text x="140" y="272" opacity="0.55">오만 임시 항로</text>
+  </g>
+</svg>
+</figure>
+
 한국은 특히 취약합니다. 에너지의 94%를 수입하고, 그중 **원유의 약 70%가 이 해협을 지납니다.** 카타르에서 들여오는 LNG는 아예 우회로가 없습니다. 반도체 공정에 쓰는 헬륨도 이 LNG를 만들 때 나오는 부산물이라 같은 병목에 걸립니다.
+
+<figure style="margin:2.2rem 0;display:grid;grid-template-columns:repeat(auto-fit,minmax(8.5rem,1fr));gap:1.4rem 1.8rem;">
+  <div style="min-width:0;"><div style="font-size:2rem;font-weight:700;line-height:1.1;">70%</div>
+  <div style="font-size:.85rem;opacity:.7;margin-top:.35rem;">한국 원유 수입 중 이 해협 통과 비중</div></div>
+  <div style="min-width:0;"><div style="font-size:2rem;font-weight:700;line-height:1.1;">94%</div>
+  <div style="font-size:.85rem;opacity:.7;margin-top:.35rem;">한국의 에너지 수입 의존도</div></div>
+  <div style="min-width:0;"><div style="font-size:2rem;font-weight:700;line-height:1.1;">0</div>
+  <div style="font-size:.85rem;opacity:.7;margin-top:.35rem;">카타르산 LNG의 우회 항로</div></div>
+</figure>
 
 즉 이 글에 나오는 숫자들은 남의 나라 이야기가 아니라, 시차를 두고 우리 주유소 가격표와 전기요금 고지서에 도착하는 숫자입니다.
 
@@ -106,12 +143,12 @@ references:
   <figcaption style="font-size:.9rem;opacity:.75;margin-bottom:.8rem;">호르무즈 해협 하루 평균 통과 선박</figcaption>
   <div style="display:flex;align-items:center;gap:.7rem;margin:.4rem 0;">
     <span style="flex:0 0 5.5rem;font-size:.88rem;">전쟁 전</span>
-    <span style="height:1.15rem;width:100%;max-width:100%;background:currentColor;opacity:.55;border-radius:3px;"></span>
+    <span style="height:1.15rem;width:100%;max-width:100%;background:currentColor;opacity:.55;border-radius:4px;"></span>
     <span style="font-size:.88rem;white-space:nowrap;">약 130척</span>
   </div>
   <div style="display:flex;align-items:center;gap:.7rem;margin:.4rem 0;">
     <span style="flex:0 0 5.5rem;font-size:.88rem;">현재</span>
-    <span style="height:1.15rem;width:9%;background:currentColor;opacity:.55;border-radius:3px;"></span>
+    <span style="height:1.15rem;width:9%;background:currentColor;opacity:.55;border-radius:4px;"></span>
     <span style="font-size:.88rem;white-space:nowrap;">10척 안팎</span>
   </div>
 </figure>
@@ -134,6 +171,11 @@ references:
 
 그게 지금은 **배값의 7.5~10%** 수준으로 매겨집니다. 최대 40배가 오른 셈입니다.
 
+<figure style="margin:2.4rem 0;text-align:center;">
+  <div style="font-size:3.1rem;font-weight:700;line-height:1;letter-spacing:-0.02em;">40배</div>
+  <div style="font-size:.92rem;opacity:.7;margin-top:.7rem;">전쟁위험보험료율 &mdash; 평시 배값의 0.2% 에서 현재 7.5~10% 로</div>
+</figure>
+
 숫자가 커서 실감이 안 나니 우리 배 이야기로 바꿔 보겠습니다. 국적선사의 배 한 척이 호르무즈를 딱 한 번 지나면서 보험료로만 **약 30억원**을 냈다는 보도가 5월에 나왔습니다. 한 번 지나가는 값입니다.
 
 ## 그리고 여기서 구조가 드러납니다
@@ -146,17 +188,17 @@ references:
   <figcaption style="font-size:.9rem;opacity:.75;margin-bottom:.8rem;">호르무즈 해협 1회 통과 비용 — 선박 1척(선가 1000억원대) 기준</figcaption>
   <div style="display:flex;align-items:center;gap:.7rem;margin:.4rem 0;">
     <span style="flex:0 0 7rem;font-size:.88rem;">평시 보험료</span>
-    <span style="height:1.15rem;width:2%;background:currentColor;opacity:.55;border-radius:3px;"></span>
+    <span style="height:1.15rem;width:2%;background:currentColor;opacity:.55;border-radius:4px;"></span>
     <span style="font-size:.88rem;white-space:nowrap;">약 2억원</span>
   </div>
   <div style="display:flex;align-items:center;gap:.7rem;margin:.4rem 0;">
     <span style="flex:0 0 7rem;font-size:.88rem;">이란 통행료</span>
-    <span style="height:1.15rem;width:20%;background:currentColor;opacity:.55;border-radius:3px;"></span>
+    <span style="height:1.15rem;width:20%;background:currentColor;opacity:.55;border-radius:4px;"></span>
     <span style="font-size:.88rem;white-space:nowrap;">약 28억원</span>
   </div>
   <div style="display:flex;align-items:center;gap:.7rem;margin:.4rem 0;">
     <span style="flex:0 0 7rem;font-size:.88rem;">현재 보험료</span>
-    <span style="height:1.15rem;width:100%;background:currentColor;opacity:.55;border-radius:3px;"></span>
+    <span style="height:1.15rem;width:100%;background:currentColor;opacity:.55;border-radius:4px;"></span>
     <span style="font-size:.88rem;white-space:nowrap;">최대 138억원</span>
   </div>
 </figure>
@@ -197,7 +239,6 @@ references:
 
 | 항목 | 수치 |
 |---|---|
-| 한국 원유의 호르무즈 통과 비중 | 약 70% (에너지 수입 의존도 94%) |
 | 해협 안쪽에 묶인 우리 선박·선원 | 26척 · 602명 (정부 브리핑 기준) |
 | 국적선 1회 통과 보험료 | 약 30억원 (5월 보도) |
 | 중소선사들의 하루 손실 | 약 5억8000만원 |
