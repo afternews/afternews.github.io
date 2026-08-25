@@ -18,7 +18,7 @@ export const SITE = {
   tagline: '뉴스가 지나간 자리에 남는 질문들',
 
   /** 글쓴이 이름 (필명을 쓰실 거면 필명을 적으세요) */
-  author: '박효재',
+  author: '사색가 J',
 
   /** 연락용 이메일 (문의 페이지 / 애드센스 심사에 필요) */
   email: 'kyocap29@gmail.com',
