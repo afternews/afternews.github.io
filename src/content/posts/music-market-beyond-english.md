@@ -3,6 +3,7 @@ title: 세계 음악시장은 왜 영어에서 멀어지고 있나 — 취향이
 description: 스페인어 앨범이 처음으로 그래미 올해의 앨범상을 받았습니다. 비영어권 음악이 갑자기 좋아진 게 아닙니다. 음악이 팔리는 방식이 바뀌면서 영어라는 관문이 필요 없어진 것에 가깝습니다. IFPI와 루미네이트의 공개 수치로 그 구조를 따라가 봅니다.
 pubDate: 2026-08-26
 tags: ['구조 읽기', '자료 해부']
+featured: true
 references:
   - title: 'Bad Bunny wins album of the year at 2026 Grammy Awards'
     url: 'https://www.npr.org/2026/02/02/nx-s1-5693043/grammys-2026-bad-bunny-album-of-the-year'
