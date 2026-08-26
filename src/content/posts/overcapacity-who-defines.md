@@ -3,6 +3,8 @@ title: 「과잉생산」은 누가 정하나 — 정의 없는 단어가 관세
 description: 중국은 세계 제조업 생산의 30%, 소비는 13%. 이 격차가 '과잉생산'의 근거로 쓰입니다. 그런데 무엇 대비 과잉인지는 아무도 정하지 않았습니다. 정의가 비어 있는 단어가 어떻게 규제의 법적 근거가 되는지를 공개 자료로 따라가 봅니다.
 pubDate: 2026-08-26
 tags: ['판단하는 법', '구조 읽기']
+cover: '/images/warehouse-surplus.png'
+coverAlt: '컨테이너와 상자가 끝없이 쌓인 창고 내부'
 references:
   - title: 'China threatens retaliation over new EU tool to curb Chinese ‘overcapacity’'
     url: 'https://euobserver.com/218003/china-threatens-retaliation-over-new-eu-tool-to-curb-chinese-overcapacity/'
@@ -41,6 +43,11 @@ references:
 
 ## 근거가 되는 숫자는 하나뿐입니다
 
+<figure style="margin:2.4rem 0;">
+  <img src="/images/factory-production.png" alt="생산 설비가 늘어선 공장 내부" width="1376" height="768" loading="lazy" decoding="async" style="width:100%;height:auto;" />
+  <figcaption style="font-size:.82rem;opacity:.6;margin-top:.7rem;text-align:center;">세계 제조업 생산의 30%가 한 나라에서 나옵니다. 생성형 AI로 만든 이미지입니다.</figcaption>
+</figure>
+
 유럽연합 집행위원회가 중국의 과잉생산을 말할 때 드는 숫자는 사실상 하나입니다.
 
 <figure style="margin:2.4rem 0;">
@@ -66,6 +73,11 @@ references:
 독일은 자국에서 소비하는 것보다 훨씬 많은 자동차를 만듭니다. 프랑스는 마시는 것보다 훨씬 많은 와인을 만듭니다. 스위스는 삼키는 것보다 훨씬 많은 의약품을 만듭니다. 그리고 한국은 **국내에서 쓰는 것과 비교가 안 되는 양의 반도체와 배를** 만듭니다.
 
 생산과 소비의 격차를 과잉의 정의로 삼으면, **무역으로 먹고사는 나라는 전부 과잉생산국**이 됩니다. 그건 정의가 아니라 무역 그 자체의 설명입니다.
+
+<figure style="margin:2.4rem 0;">
+  <img src="/images/warehouse-surplus.png" alt="컨테이너와 상자가 끝없이 쌓인 창고 내부" width="1376" height="768" loading="lazy" decoding="async" style="width:100%;height:auto;" />
+  <figcaption style="font-size:.82rem;opacity:.6;margin-top:.7rem;text-align:center;">만든 것이 쓰이지 않으면 어딘가에 쌓입니다. 문제는 그 '어딘가'가 어디냐는 것입니다. 생성형 AI로 만든 이미지입니다.</figcaption>
+</figure>
 
 ## 그렇다면 '과잉'의 분모는 무엇이어야 하나
 
@@ -139,6 +151,11 @@ references:
 **규제하는 쪽과 조사받는 쪽이 같습니다.** 이건 모순이 아니라, 이 단어가 어떤 물건인지를 보여 주는 장면입니다. 상대에게 쓸 때는 상대의 결함을 가리키는 말이고, 나에게 쓰일 때는 부당한 잣대가 됩니다. 그렇게 양쪽으로 쓸 수 있어야 도구로서 쓸모가 있습니다.
 
 미국의 조사는 7월 말 완료가 목표였지만 아직 결론이 나오지 않았습니다. 통상 전문 로펌들은 8월 들어 "추가 301조 관세는 온다"는 전제로 기업 대응을 안내하고 있습니다.
+
+<figure style="margin:2.4rem 0;">
+  <img src="/images/port-export.png" alt="컨테이너선이 접안한 항만의 하역 부두" width="1376" height="768" loading="lazy" decoding="async" style="width:100%;height:auto;" />
+  <figcaption style="font-size:.82rem;opacity:.6;margin-top:.7rem;text-align:center;">쌓인 물량은 결국 항구를 통해 국경을 넘습니다. 생성형 AI로 만든 이미지입니다.</figcaption>
+</figure>
 
 ## 그러면 무엇을 봐야 하나
 
