@@ -114,6 +114,42 @@ references:
 
 스트리밍에서는 이 관문이 통째로 사라졌습니다. 한 번 올리면 190여 개국에 동시에 놓입니다. 관문이 없어진 게 아니라 **관문의 종류가 바뀐 겁니다.** 유통에서 발견으로.
 
+<figure style="margin:2.4rem 0;">
+  <figcaption style="font-size:.9rem;opacity:.75;margin-bottom:1rem;">음악이 국경을 넘는 경로 &mdash; 관문의 종류가 바뀌었습니다</figcaption>
+<svg viewBox="0 0 820 566" role="img" aria-label="음악이 국경을 넘는 경로의 변화" style="width:100%;height:auto;display:block;">
+<defs><marker id="fnArrow" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,1.5 L8.5,5 L0,8.5 z" fill="currentColor"/></marker></defs>
+<text x="8" y="32" font-size="25" fill="currentColor" opacity="0.6">예전 — 관문이 언어였다</text>
+<rect x="8" y="52" width="190" height="40" rx="8" fill="currentColor" opacity="0.09" stroke="currentColor" stroke-opacity="0.3" stroke-width="2"/><text x="103.0" y="80.0" font-size="24" fill="currentColor" opacity="0.85" text-anchor="middle">스페인어</text>
+<rect x="8" y="100" width="190" height="40" rx="8" fill="currentColor" opacity="0.09" stroke="currentColor" stroke-opacity="0.3" stroke-width="2"/><text x="103.0" y="128.0" font-size="24" fill="currentColor" opacity="0.85" text-anchor="middle">한국어</text>
+<rect x="8" y="148" width="190" height="40" rx="8" fill="currentColor" opacity="0.09" stroke="currentColor" stroke-opacity="0.3" stroke-width="2"/><text x="103.0" y="176.0" font-size="24" fill="currentColor" opacity="0.85" text-anchor="middle">포르투갈어</text>
+<rect x="8" y="196" width="190" height="40" rx="8" fill="currentColor" opacity="0.09" stroke="currentColor" stroke-opacity="0.3" stroke-width="2"/><text x="103.0" y="224.0" font-size="24" fill="currentColor" opacity="0.85" text-anchor="middle">그 밖의 언어</text>
+<path d="M202,72 C265,72 280,144 334,144" fill="none" stroke="currentColor" stroke-width="2.5" opacity="0.45"/>
+<path d="M202,120 C265,120 280,144 334,144" fill="none" stroke="currentColor" stroke-width="2.5" opacity="0.45"/>
+<path d="M202,168 C265,168 280,144 334,144" fill="none" stroke="currentColor" stroke-width="2.5" opacity="0.45"/>
+<path d="M202,216 C265,216 280,144 334,144" fill="none" stroke="currentColor" stroke-width="2.5" opacity="0.45"/>
+<text x="375" y="112" font-size="25" fill="currentColor" opacity="0.85" text-anchor="middle">영어</text>
+<rect x="340" y="120" width="70" height="48" rx="8" fill="currentColor" opacity="0.2" stroke="currentColor" stroke-opacity="0.3" stroke-width="2"/><text x="375.0" y="152.0" font-size="24" fill="currentColor" opacity="0.85" text-anchor="middle"></text>
+<path d="M416,144 H552" fill="none" stroke="currentColor" stroke-width="2.5" opacity="0.8" marker-end="url(#fnArrow)"/>
+<rect x="560" y="120" width="252" height="48" rx="8" fill="currentColor" opacity="0.09" stroke="currentColor" stroke-opacity="0.3" stroke-width="2"/><text x="686.0" y="152.0" font-size="24" fill="currentColor" opacity="0.85" text-anchor="middle">세계 시장</text>
+<text x="8" y="322" font-size="25" fill="currentColor" opacity="0.6">지금 — 관문이 넓어졌다</text>
+<rect x="8" y="342" width="190" height="40" rx="8" fill="currentColor" opacity="0.09" stroke="currentColor" stroke-opacity="0.3" stroke-width="2"/><text x="103.0" y="370.0" font-size="24" fill="currentColor" opacity="0.85" text-anchor="middle">스페인어</text>
+<rect x="8" y="390" width="190" height="40" rx="8" fill="currentColor" opacity="0.09" stroke="currentColor" stroke-opacity="0.3" stroke-width="2"/><text x="103.0" y="418.0" font-size="24" fill="currentColor" opacity="0.85" text-anchor="middle">한국어</text>
+<rect x="8" y="438" width="190" height="40" rx="8" fill="currentColor" opacity="0.09" stroke="currentColor" stroke-opacity="0.3" stroke-width="2"/><text x="103.0" y="466.0" font-size="24" fill="currentColor" opacity="0.85" text-anchor="middle">포르투갈어</text>
+<rect x="8" y="486" width="190" height="40" rx="8" fill="currentColor" opacity="0.09" stroke="currentColor" stroke-opacity="0.3" stroke-width="2"/><text x="103.0" y="514.0" font-size="24" fill="currentColor" opacity="0.85" text-anchor="middle">그 밖의 언어</text>
+<text x="375" y="328" font-size="25" fill="currentColor" opacity="0.85" text-anchor="middle">스트리밍</text>
+<rect x="340" y="336" width="70" height="196" rx="8" fill="currentColor" opacity="0.2" stroke="currentColor" stroke-opacity="0.3" stroke-width="2"/>
+<path d="M202,362 H336" fill="none" stroke="currentColor" stroke-width="2.5" opacity="0.45"/>
+<path d="M414,362 H552" fill="none" stroke="currentColor" stroke-width="2.5" opacity="0.8" marker-end="url(#fnArrow)"/>
+<path d="M202,410 H336" fill="none" stroke="currentColor" stroke-width="2.5" opacity="0.45"/>
+<path d="M414,410 H552" fill="none" stroke="currentColor" stroke-width="2.5" opacity="0.8" marker-end="url(#fnArrow)"/>
+<path d="M202,458 H336" fill="none" stroke="currentColor" stroke-width="2.5" opacity="0.45"/>
+<path d="M414,458 H552" fill="none" stroke="currentColor" stroke-width="2.5" opacity="0.8" marker-end="url(#fnArrow)"/>
+<path d="M202,506 H336" fill="none" stroke="currentColor" stroke-width="2.5" opacity="0.45"/>
+<path d="M414,506 H552" fill="none" stroke="currentColor" stroke-width="2.5" opacity="0.8" marker-end="url(#fnArrow)"/>
+<rect x="560" y="336" width="252" height="196" rx="8" fill="currentColor" opacity="0.09" stroke="currentColor" stroke-opacity="0.3" stroke-width="2"/><text x="686.0" y="442.0" font-size="24" fill="currentColor" opacity="0.85" text-anchor="middle">세계 시장</text>
+</svg>
+</figure>
+
 **둘째, 추천 알고리즘은 언어를 모릅니다.**
 
 발견의 관문을 지키는 건 이제 사람이 아니라 추천 시스템입니다. 그런데 이 시스템은 "영어 노래"라는 범주로 세상을 나누지 않습니다. 비슷하게 듣는 사람들을 묶고, 그 묶음 안에서 다음 곡을 밀어 줄 뿐입니다.
