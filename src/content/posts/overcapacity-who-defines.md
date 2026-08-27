@@ -4,7 +4,7 @@ description: 중국은 세계 제조업 생산의 30%, 소비는 13%. 이 격차
 pubDate: 2026-08-26
 tags: ['판단하는 법', '구조 읽기']
 cover: '/images/warehouse-surplus.png'
-coverAlt: '컨테이너와 상자가 끝없이 쌓인 창고 내부'
+coverAlt: '컨테이너와 상자가 끝없이 쌓인 창고 — 만든 것이 쓰이지 않으면 어딘가에 쌓입니다. 생성형 AI로 만든 이미지입니다.'
 references:
   - title: 'China threatens retaliation over new EU tool to curb Chinese ‘overcapacity’'
     url: 'https://euobserver.com/218003/china-threatens-retaliation-over-new-eu-tool-to-curb-chinese-overcapacity/'
@@ -74,10 +74,7 @@ references:
 
 생산과 소비의 격차를 과잉의 정의로 삼으면, **무역으로 먹고사는 나라는 전부 과잉생산국**이 됩니다. 그건 정의가 아니라 무역 그 자체의 설명입니다.
 
-<figure style="margin:2.4rem 0;">
-  <img src="/images/warehouse-surplus.png" alt="컨테이너와 상자가 끝없이 쌓인 창고 내부" width="1376" height="768" loading="lazy" decoding="async" style="width:100%;height:auto;" />
-  <figcaption style="font-size:.82rem;opacity:.6;margin-top:.7rem;text-align:center;">만든 것이 쓰이지 않으면 어딘가에 쌓입니다. 문제는 그 '어딘가'가 어디냐는 것입니다. 생성형 AI로 만든 이미지입니다.</figcaption>
-</figure>
+
 
 ## 그렇다면 '과잉'의 분모는 무엇이어야 하나
 
