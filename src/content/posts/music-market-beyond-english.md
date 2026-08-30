@@ -3,7 +3,8 @@ title: 세계 음악시장은 왜 영어에서 멀어지고 있나 — 취향이
 description: 스페인어 앨범이 처음으로 그래미 올해의 앨범상을 받았습니다. 비영어권 음악이 갑자기 좋아진 게 아닙니다. 음악이 팔리는 방식이 바뀌면서 영어라는 관문이 필요 없어진 것에 가깝습니다. IFPI와 루미네이트의 공개 수치로 그 구조를 따라가 봅니다.
 pubDate: 2026-08-26
 tags: ['구조 읽기', '자료 해부']
-featured: true
+cover: '/images/festival.png'
+coverAlt: '해질 무렵 야외 공연장을 가득 메운 관객. 생성형 AI로 만든 이미지입니다.'
 references:
   - title: 'Bad Bunny wins album of the year at 2026 Grammy Awards'
     url: 'https://www.npr.org/2026/02/02/nx-s1-5693043/grammys-2026-bad-bunny-album-of-the-year'
@@ -110,6 +111,11 @@ references:
 숫자는 여기까지입니다. 이제 왜 이런 일이 벌어지는지를 봅시다. 제가 보기에 세 가지가 맞물려 있습니다.
 
 **첫째, 유통이 공짜가 됐습니다.**
+
+<figure style="margin:2.4rem 0;">
+  <img src="/images/homestudio.png" alt="방 한 칸에 마이크와 노트북만 있는 작은 작업실" width="1376" height="768" loading="lazy" decoding="async" style="width:100%;height:auto;" />
+  <figcaption style="font-size:.82rem;opacity:.6;margin-top:.7rem;text-align:center;">지금 음악이 만들어지는 자리. 여기서 만든 것이 190여 개국에 동시에 놓입니다. 생성형 AI로 만든 이미지입니다.</figcaption>
+</figure>
 
 예전에 음악이 국경을 넘으려면 통과해야 할 관문이 있었습니다. 현지 라디오 편성표, 음반 매장의 매대, 방송사의 방영 결정. 이 관문은 나라마다 따로 있었고, 하나씩 뚫으려면 현지 유통사와 계약해야 했습니다. 돈과 시간이 들었고, 그래서 **가장 큰 시장에서 통할 만한 음악부터** 뚫었습니다. 그게 영어였습니다.
 
