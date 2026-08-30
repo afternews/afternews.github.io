@@ -3,6 +3,8 @@ title: 술은 밤 산업의 상품이 아니라 계산 방식이었다 — 웰�
 description: 술 없는 파티가 늘고 있습니다. 세대의 취향이 변한 것으로 읽히지만, 자료를 보면 밤의 요금 청구 방식이 바뀌는 중입니다. 그 변화가 한국의 회식에 대해서도 다른 설명을 내놓습니다.
 pubDate: 2026-08-29
 tags: ['구조 읽기', '판단하는 법']
+cover: '/images/dawndance.png'
+coverAlt: '이른 아침 햇빛 속에서 춤추는 사람들. 생성형 AI로 만든 이미지입니다.'
 references:
   - title: 'The Trend in the News (August 2026)'
     url: 'https://www.globalwellnesssummit.com/trendium/the-trend-in-the-news-august-2026/'
@@ -107,6 +109,11 @@ references:
 그 기능이 사라지면 어디로 갈까요. 없어지지는 않을 겁니다. 다만 **비용을 내는 주체가 바뀔 가능성이 큽니다.** 관계를 만들고 정보를 얻는 일이 개인의 시간과 돈으로 옮겨간다면, 그것은 자유의 확대이면서 동시에 **비용의 이전**이기도 합니다.
 
 여기서 앞의 여성 음주율 이야기가 다시 걸립니다. 30대 이상 여성의 고위험음주가 늘었다는 자료 말입니다. 저는 그 이유를 알지 못합니다. 다만 **'세대가 술을 끊고 있다'는 설명이 덮어 버리는 무언가가 그 숫자 아래 있다**는 것만은 분명해 보입니다.
+
+<figure style="margin:2.4rem 0;">
+  <img src="/images/wristband.png" alt="아무 표식도 없는 손목 밴드, 화면은 꺼져 있다" width="1376" height="768" loading="lazy" decoding="async" style="width:100%;height:auto;" />
+  <figcaption style="font-size:.82rem;opacity:.6;margin-top:.7rem;text-align:center;">밤이 끝난 뒤에도 무언가가 재고 있습니다. 생성형 AI로 만든 이미지입니다.</figcaption>
+</figure>
 
 ## 절제일까, 다른 종류의 소비일까
 
