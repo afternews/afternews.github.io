@@ -25,7 +25,7 @@ const {
   noindex = false,
 } = Astro.props;
 
-const canonical = new URL(Astro.url.pathname.replace(/\/$/, '') || '/', Astro.site ?? SITE.url);
+const canonical = new URL(Astro.url.pathname.replace(/\/?$/, '/'), Astro.site ?? SITE.url);
 const ogImage = new URL(image ?? '/og-default.png', Astro.site ?? SITE.url);
 const fullTitle = title === SITE.title ? title : `${title} — ${SITE.title}`;
 const ads = SITE.adsense;
