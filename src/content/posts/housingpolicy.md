@@ -25,7 +25,7 @@ references:
     source: 더인디고
 ---
 
-청년 주거정책은 지난 몇 년간 계속 문턱을 낮춰 왔습니다. 소득 요건을 완화하고, 특별공급 대상을 넓히고, 나이 기준을 손봤습니다. 국회미래연구원 분석에 따르면 자격 기준은 청년 가구의 90%가 해당될 만큼 넓어졌습니다.
+청년 주거정책은 지난 몇 년간 계속 문턱을 낮춰 왔습니다. 소득 요건을 완화하고, 새로 짓는 아파트 물량의 일부를 청년이나 신혼부부처럼 정해진 집단에 먼저 배정하는 특별공급의 대상을 넓히고, 나이 기준을 손봤습니다. 국회미래연구원 분석에 따르면 자격 기준은 청년 가구의 90%가 해당될 만큼 넓어졌습니다.
 
 그런데 실제로 그 정책을 써 본 사람의 비율은 이렇습니다.
 
@@ -64,7 +64,7 @@ references:
 그런데 지원은 이렇게 갑니다.
 
 <figure style="margin:2.4rem 0;">
-  <figcaption style="font-size:.9rem;opacity:.75;margin-bottom:1rem;">저소득 임차가구 중 공공임대와 주거급여를 함께 받는 비율 (국토연구원)</figcaption>
+  <figcaption style="font-size:.9rem;opacity:.75;margin-bottom:1rem;">저소득 임차가구 중 공공임대와 주거급여를 함께 받는 비율 (국토연구원)<br><span style="opacity:.8;font-size:.86rem;">공공임대는 나라가 시세보다 싸게 빌려주는 집이고, 주거급여는 소득이 적은 가구에 매달 월세의 일부를 현금으로 보태 주는 제도입니다.</span></figcaption>
   <div style="margin:.7rem 0;"><div style="display:flex;justify-content:space-between;font-size:.88rem;margin-bottom:.25rem;"><span>청년</span><span>4.5%</span></div><div style="height:.72rem;"><span style="display:block;height:100%;width:14%;background:currentColor;opacity:.6;border-radius:4px;"></span></div></div>
   <div style="margin:.7rem 0;"><div style="display:flex;justify-content:space-between;font-size:.88rem;margin-bottom:.25rem;"><span>중장년</span><span>31.1%</span></div><div style="height:.72rem;"><span style="display:block;height:100%;width:100%;background:currentColor;opacity:.6;border-radius:4px;"></span></div></div>
   <div style="margin:.7rem 0;"><div style="display:flex;justify-content:space-between;font-size:.88rem;margin-bottom:.25rem;"><span>노년</span><span>27.1%</span></div><div style="height:.72rem;"><span style="display:block;height:100%;width:87%;background:currentColor;opacity:.6;border-radius:4px;"></span></div></div>
@@ -88,7 +88,7 @@ references:
 
 그리고 이 두 번째 항목은 **완화된 적이 없습니다.**
 
-숫자로 보면 이렇습니다. 서울 아파트 평균 가격이 15억원대인데, 연소득 5000만원인 사람은 총부채원리금상환비율(DSR) 규제 아래서 3억 5000만원 정도를 빌릴 수 있습니다. 나머지 11억원 이상은 이미 가지고 있거나 받아야 합니다.
+숫자로 보면 이렇습니다. 서울 아파트 평균 가격이 15억원대입니다. 그런데 은행은 아무한테나 그만큼 빌려주지 않습니다. 한 해에 갚아야 할 원금과 이자가 그 사람 연소득의 일정 비율을 넘지 않는 선까지만 빌려주도록 규제가 걸려 있기 때문입니다. 이걸 총부채원리금상환비율(DSR) 규제라고 합니다. 연소득 5000만원이면 한도가 3억 5000만원쯤 됩니다. 나머지 11억원 이상은 이미 가지고 있거나 받아야 합니다.
 
 국회 자료에서는 수도권 분양주택을 취득하려면 부모에게 5억원 이상을 증여받거나 연소득이 1억원 이상이어야 한다는 분석도 나왔습니다.
 

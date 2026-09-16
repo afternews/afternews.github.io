@@ -95,7 +95,7 @@ references:
 지난 2년 사이에 사정이 달라졌습니다.
 
 <figure style="margin:2.4rem 0;">
-  <figcaption style="font-size:.9rem;opacity:.75;margin-bottom:1.1rem;">합계출산율</figcaption>
+  <figcaption style="font-size:.9rem;opacity:.75;margin-bottom:1.1rem;">합계출산율<br><span style="opacity:.8;font-size:.86rem;">여성 한 명이 평생 낳을 것으로 예상되는 아이의 수입니다. 지금 인구가 유지되려면 2.1명이 필요합니다.</span></figcaption>
   <div style="font-size:.95rem;">
     <div style="display:flex;gap:1rem;padding:.85rem 0;border-bottom:1px solid currentColor;align-items:baseline;">
       <div style="flex:0 0 5rem;opacity:.7;">2024년</div>
@@ -162,7 +162,7 @@ references:
     </div>
     <div style="border-left:3px solid currentColor;padding:.5rem 0 .5rem 1rem;opacity:.85;">
       <div style="font-weight:700;">구성</div>
-      <div style="opacity:.8;margin-top:.35rem;line-height:1.8;">위원 정수 25명 이내에서 40명 이내로, 당연직 부처는 9곳에서 15곳으로 늘었습니다. 중앙부처와 광역지자체에 인구정책책임관을 둡니다.</div>
+      <div style="opacity:.8;margin-top:.35rem;line-height:1.8;">위원 정수가 25명 이내에서 40명 이내로 늘었습니다. 장관이 그 자리에 있다는 이유만으로 자동으로 위원이 되는 부처도 9곳에서 15곳으로 늘었습니다. 중앙부처와 광역지자체에 인구정책책임관을 둡니다.</div>
     </div>
   </div>
 </figure>

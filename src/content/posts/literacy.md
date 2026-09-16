@@ -24,7 +24,7 @@ references:
     date: 2026-09-08
 ---
 
-9월 8일 경제협력개발기구가 PISA 2025 결과를 발표했습니다. 91개국 만 15세 학생 76만 명이 대상이고, 한국에서는 196개교 6859명이 참여했습니다.
+9월 8일 경제협력개발기구(OECD)가 PISA 2025 결과를 발표했습니다. PISA는 OECD가 3년마다 세계 각국의 만 15세 학생에게 같은 문제를 풀게 해 읽기·수학·과학 실력을 비교하는 국제학업성취도평가입니다. 이번에는 91개국 76만 명이 대상이었고, 한국에서는 196개교 6859명이 참여했습니다.
 
 한국 학생의 읽기 점수는 **501점**입니다. 2022년 515점에서 **14점 떨어졌습니다.** 수학은 5점, 과학은 2점 하락했습니다.
 
@@ -68,7 +68,7 @@ PISA 2025에는 '디지털 세계에서의 학습'이라는 영역이 새로 들
   <figcaption style="font-size:.9rem;opacity:.75;margin-bottom:1.1rem;">한국 학생의 읽기 성취수준 분포</figcaption>
   <div style="font-size:.92rem;">
     <div style="display:flex;gap:1rem;padding:.85rem 0;border-bottom:1px solid currentColor;">
-      <div style="flex:1.2;">최하위 (1수준 이하)</div>
+      <div style="flex:1.2;">최하위 (1수준 이하)<br><span style="opacity:.75;font-size:.84rem;">글에서 정보 하나를 찾아내는 정도는 되지만, 글의 짜임을 파악하거나 흩어진 내용을 연결하는 데는 어려움을 겪는 수준</span></div>
       <div style="flex:.6;opacity:.7;">2012년 7.6%</div>
       <div style="flex:.6;opacity:.7;">2022년 14.7%</div>
       <div style="flex:.6;font-weight:700;">2025년 17.8%</div>

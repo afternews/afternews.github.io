@@ -34,7 +34,7 @@ references:
   <figcaption style="font-size:.9rem;opacity:.75;margin-bottom:1.1rem;">거론되는 방안과 국회 동의 필요 여부</figcaption>
   <div style="font-size:.92rem;">
     <div style="display:flex;gap:.9rem;padding:.75rem 0;border-bottom:1px solid currentColor;">
-      <div style="flex:1.4;">청해부대 작전구역을 아덴만에서 호르무즈로 확대<br><span style="opacity:.7;font-size:.86rem;">260명, 4400t급 구축함, 특수전 요원, 해상헬기</span></div>
+      <div style="flex:1.4;">청해부대 작전구역을 아덴만에서 호르무즈로 확대<br><span style="opacity:.7;font-size:.86rem;">청해부대는 2009년부터 소말리아 해적으로부터 우리 상선을 지키려고 아프리카 아덴만에 나가 있는 해군 부대입니다. 새로 보내는 대신 이 부대의 활동 구역을 넓히자는 안입니다.<br>260명, 4400t급 구축함, 특수전 요원, 해상헬기</span></div>
       <div style="flex:.7;opacity:.85;">이견 있음</div>
     </div>
     <div style="display:flex;gap:.9rem;padding:.75rem 0;border-bottom:1px solid currentColor;">
@@ -75,7 +75,7 @@ references:
 
 > "비전투든 전투든, 한명이든 두명이든, 가게 되면 파병이라고 규정하고 있다."
 
-이건 군사적 정의가 아니라 절차의 정의입니다. **절차적 정의**입니다. 헌법이 국회 동의를 요구하는 것은 「국군의 외국에의 파견」이고, 그 판단에 인원수나 전투 여부는 들어가지 않습니다. 사람이 가면 파병이고, 물자만 가면 파병이 아닙니다.
+이건 군사적으로 무엇이 파병인지를 가른 기준이 아닙니다. 국회 동의를 받아야 하느냐 마느냐를 가르는, 절차상의 기준입니다. 헌법이 국회 동의를 요구하는 것은 「국군의 외국에의 파견」이고, 그 판단에 인원수나 전투 여부는 들어가지 않습니다. 사람이 가면 파병이고, 물자만 가면 파병이 아닙니다.
 
 ## 규모를 줄여도 줄지 않는 것
 
