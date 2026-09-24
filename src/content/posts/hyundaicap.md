@@ -4,7 +4,7 @@ description: 시가총액 153조 5683억원에서 74조 7366억원, 감소율 51
 pubDate: 2026-09-21
 tags: ['자료 해부', '판단하는 법']
 cover: '/images/tidemark.png'
-coverAlt: '물이 빠진 콘크리트 방파제 벽에 남아 있는 여러 줄의 물때 자국. 생성형 AI로 만든 이미지입니다.'
+coverAlt: '자동차 조립 라인에서 도장 전 차체에 부품을 끼우는 작업자. 생성형 AI로 만든 이미지입니다.'
 references:
   - title: "9월 자동차株 일제히 후진, 현대차는 석달새 시총 '반토막'"
     url: 'https://www.fnnews.com/news/202609201835466731'

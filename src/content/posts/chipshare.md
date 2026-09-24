@@ -4,7 +4,7 @@ description: 9월 1~20일 수출이 714억 달러로 같은 기간 역대 최대
 pubDate: 2026-09-22
 tags: ['자료 해부', '판단하는 법']
 cover: '/images/onepallet.png'
-coverAlt: '부두에 한 종류의 화물만 쌓여 있는 적재장. 생성형 AI로 만든 이미지입니다.'
+coverAlt: '컨테이너가 쌓인 부두를 작업자 한 명이 걸어가는 모습. 생성형 AI로 만든 이미지입니다.'
 references:
   - title: '반도체 수출 첫 300억 달러 돌파…9월 중순 수출 714억 달러 ‘역대 최대’'
     url: 'https://www.seoul.co.kr/news/economy/2026/09/21/20260921500200'

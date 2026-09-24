@@ -4,7 +4,7 @@ description: 두 달 남짓 사이 원·달러 환율이 218.8원 빠졌습니�
 pubDate: 2026-09-10
 tags: ['구조 읽기', '자료 해부']
 cover: '/images/loadline.png'
-coverAlt: '화물선 선체 옆면의 만재흘수선 표시가 수면 바로 위까지 잠겨 있는 모습. 생성형 AI로 만든 이미지입니다.'
+coverAlt: '은행 환전 창구에서 직원이 지폐를 세고 있는 모습. 생성형 AI로 만든 이미지입니다.'
 references:
   - title: '원·달러 환율, 9.5원 내린 1336.1원'
     url: 'https://view.asiae.co.kr/article/2026090915324235252'

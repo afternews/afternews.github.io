@@ -4,7 +4,7 @@ description: 서울 아파트 전세 매물이 1년 전보다 12.8% 줄었습니
 pubDate: 2026-09-20
 tags: ['자료 해부', '판단하는 법']
 cover: '/images/blankboard.png'
-coverAlt: '유리창 안쪽에 걸린 빈 게시판과 아무것도 끼워지지 않은 집게들. 생성형 AI로 만든 이미지입니다.'
+coverAlt: '창문 격자가 드러난 고층 아파트 단지를 아래에서 올려다본 모습. 생성형 AI로 만든 이미지입니다.'
 references:
   - title: '전세 매물 실종에 "노 룩 계약"까지… 서울 아파트 전세 실태'
     url: 'https://www.seoul.co.kr/news/economy/estate/2026/09/02/20260902032001'

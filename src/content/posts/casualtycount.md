@@ -4,7 +4,7 @@ description: 미군의 공식 피해 집계는 사람 단위가 아니라 작전
 pubDate: 2026-09-19
 tags: ['구조 읽기', '자료 해부']
 cover: '/images/ruledledger.png'
-coverAlt: '줄만 그어져 있고 아무것도 적히지 않은 두꺼운 장부가 펼쳐져 있는 모습. 생성형 AI로 만든 이미지입니다.'
+coverAlt: '접이식 야전 침대가 줄지어 놓인 군용 텐트 내부. 생성형 AI로 만든 이미지입니다.'
 references:
   - title: 'More U.S. troops have died amid Iran war than Pentagon has disclosed publicly'
     url: 'https://www.washingtonpost.com/national-security/2026/09/18/more-us-troops-have-died-amid-iran-war-than-pentagon-has-disclosed-publicly/'

@@ -4,7 +4,7 @@ description: 초중고 학교 운영비와 교원 인건비가 나오는 78조 8
 pubDate: 2026-09-04
 tags: ['자료 해부', '판단하는 법']
 cover: '/images/heightmarks.png'
-coverAlt: '아이의 키를 재며 그어 온 벽의 눈금 자국들. 생성형 AI로 만든 이미지입니다.'
+coverAlt: '수업이 진행되는 중고등학교 교실을 교실 뒤에서 본 모습. 생성형 AI로 만든 이미지입니다.'
 references:
   - title: '내국세 연동 첫 폐지된 교육교부금 10%↑, 대학엔 3조 더 쓴다'
     url: 'https://www.mt.co.kr/policy/2026/09/01/2026083011103245359'

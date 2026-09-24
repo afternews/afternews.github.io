@@ -4,7 +4,7 @@ description: 15년 동안 「저출산 대응 예산」으로 집계된 380조 2
 pubDate: 2026-09-13
 tags: ['자료 해부', '판단하는 법']
 cover: '/images/boundarystone.png'
-coverAlt: '풀밭에 반쯤 묻힌 채 서 있는 낡은 콘크리트 경계표석. 생성형 AI로 만든 이미지입니다.'
+coverAlt: '하루가 끝난 어린이집에서 보육교사가 작은 의자를 쌓아 올리는 모습. 생성형 AI로 만든 이미지입니다.'
 references:
   - title: '저출산고령사회위 20년 만에 간판 바꿨다…‘인구전략위’ 공식 출범'
     url: 'https://www.edaily.co.kr/News/Read?newsId=03322646645578808'

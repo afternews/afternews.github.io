@@ -4,7 +4,7 @@ description: PISA 2025에서 한국 학생의 읽기 점수가 501점으로 14�
 pubDate: 2026-09-08
 tags: ['자료 해부', '판단하는 법']
 cover: '/images/wideningcrack.png'
-coverAlt: '콘크리트 바닥의 균열이 한쪽으로 갈수록 벌어지는 모습. 생성형 AI로 만든 이미지입니다.'
+coverAlt: '책상마다 떨어져 앉아 시험을 치르는 응시자들. 생성형 AI로 만든 이미지입니다.'
 references:
   - title: "한국 학생들, OECD 최상위권 유지 속 '문해력 저하' 경고등, 3년 전보다 14점 뚝 [PISA 2025]"
     url: 'https://www.segye.com/newsView/20260908510225'

@@ -4,7 +4,7 @@ description: 이란 전쟁 6개월, 알자지라가 경제적 승자와 패자�
 pubDate: 2026-09-02
 tags: ['구조 읽기', '자료 해부']
 cover: '/images/refinery.png'
-coverAlt: '밤에 조명이 켜진 정유 설비. 생성형 AI로 만든 이미지입니다.'
+coverAlt: '낮의 정유공장 증류탑과 배관 사이를 작업자가 지나가는 모습. 생성형 AI로 만든 이미지입니다.'
 references:
   - title: 'Who are the economic winners and losers of the US-Israel war on Iran?'
     url: 'https://www.aljazeera.com/economy/2026/8/31/who-are-the-economic-winners-and-losers-of-the-us-israel-war-on-iran'

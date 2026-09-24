@@ -4,7 +4,7 @@ description: 한국음악저작권협회가 인간 기여도 50% 이상이면 AI
 pubDate: 2026-09-18
 tags: ['구조 읽기', '판단하는 법']
 cover: '/images/ceilingspeaker.png'
-coverAlt: '카페 천장 구석에 달린 작고 낡은 스피커 하나. 생성형 AI로 만든 이미지입니다.'
+coverAlt: '녹음 스튜디오 조정실에서 엔지니어가 믹싱 콘솔의 페이더를 만지는 모습. 생성형 AI로 만든 이미지입니다.'
 references:
   - title: "카페 점령한 AI '딸깍 음악'…저작권 정책은 표류 중"
     url: 'https://www.khan.co.kr/article/202609110600101/'
