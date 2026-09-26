@@ -3,8 +3,8 @@ title: "AI 디지털교과서 쓰는 학교 4095곳에서 622곳으로, 절반�
 description: 올해 1학기 AI 디지털교과서를 쓴 학교는 전국 622곳입니다. 1년 전에는 4095곳이었습니다. 그런데 남은 622곳 가운데 311곳이 대구 한 곳에 있습니다. 전국 통계 하나가 지역 한 곳으로 만들어질 때 그 숫자로 무엇을 말할 수 있는지 따져 봤습니다.
 pubDate: 2026-09-22
 tags: ['자료 해부', '구조 읽기']
-cover: '/images/dustytrolley.png'
-coverAlt: '교실 뒤편에 세워져 있는 태블릿 충전 보관함. 생성형 AI로 만든 이미지입니다.'
+cover: '/images/tabletlesson.png'
+coverAlt: '초등학교 교실에서 학생들이 태블릿으로 수업을 받고 있습니다. 생성형 AI로 만든 이미지입니다.'
 references:
   - title: '[단독]‘AI 교과서’ 사실상 사라졌다…활용학교 5.2%뿐'
     url: 'https://www.khan.co.kr/article/202609211632001/'

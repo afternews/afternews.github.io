@@ -3,8 +3,8 @@ title: "상반기 관객 34% 증가, 극장은 9곳 폐관"
 description: 올해 상반기 극장 관객은 34.2% 늘었는데 멀티플렉스 3사 상영관은 9곳 줄었습니다. 극장이 치르는 돈은 관객 수가 아니라 임대료와 상영실 규모에 붙기 때문입니다. 지난해 극장은 4.0%, 좌석은 7.1% 줄었습니다. 그 격차가 지금 벌어지는 일의 모양입니다.
 pubDate: 2026-09-23
 tags: ['구조 읽기', '자료 해부']
-cover: '/images/projectorlens.png'
-coverAlt: '어두운 영사실 벽 가운데에 영사기 렌즈 하나가 정면으로 놓여 있습니다. 생성형 AI로 만든 이미지입니다.'
+cover: '/images/boxofficelobby.png'
+coverAlt: '멀티플렉스 영화관 로비에서 관객들이 무인 발권기 앞에 줄을 서 있습니다. 생성형 AI로 만든 이미지입니다.'
 references:
   - title: '하향 안정화와 새로운 기회 사이에서 — 2025년 한국 영화산업 결산 보고서 요약'
     url: 'https://magazine.kofic.or.kr/webzine/web3/2777/pdsView.do'

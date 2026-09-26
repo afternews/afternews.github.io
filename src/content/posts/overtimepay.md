@@ -3,8 +3,8 @@ title: "야근수당을 월급에 포함한 포괄임금 사업장 79곳 중 77�
 description: 올 2월 시작된 포괄임금 기획감독에서 79곳 중 77곳이 노동관계법을 어겼습니다. 적발된 항목 가운데 27곳은 근로시간 기록·관리 자체가 문제였습니다. 기록이 없으면 못 받은 야근수당을 계산할 기준선도 함께 없어집니다.
 pubDate: 2026-09-15
 tags: ['구조 읽기', '자료 해부']
-cover: '/images/punchclock.png'
-coverAlt: '벽에 걸린 낡은 출퇴근 기록기와 그 아래 비어 있는 카드꽂이. 생성형 AI로 만든 이미지입니다.'
+cover: '/images/nightoffice.png'
+coverAlt: '창밖이 어두워진 사무실에 직원 한 명이 혼자 남아 일하고 있습니다. 생성형 AI로 만든 이미지입니다.'
 references:
   - title: '「공짜노동 근절을 위한 포괄임금 오남용 방지 지도 지침」 4월 9일부터 시행'
     url: 'https://www.moel.go.kr/news/enews/report/enewsView.do?news_seq=19208'

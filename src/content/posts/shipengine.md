@@ -3,8 +3,8 @@ title: "중국이 수입하는 선박엔진의 절반은 한국산"
 description: 중국은 올해 세계 선박 수주의 76%를 가져갔습니다. 그런데 그 배에 얹을 엔진은 한국에서 사 갑니다. 한국 조선 호황의 성격을 확인하려면 엔진 설계의 소유주를 봐야 합니다.
 pubDate: 2026-09-15
 tags: ['구조 읽기', '자료 해부']
-cover: '/images/cylinderliner.png'
-coverAlt: '공장 바닥에 세워진 대형 주철 실린더 라이너 하나. 생성형 AI로 만든 이미지입니다.'
+cover: '/images/marineengine.png'
+coverAlt: '조선소 공장에 세워진 대형 선박용 디젤 엔진과 그 옆을 지나가는 작업자. 생성형 AI로 만든 이미지입니다.'
 references:
   - title: '조선업 슈퍼사이클, HD현대마린엔진 2007년 이후 첫 풀가동'
     url: 'https://v.daum.net/v/20260914110255160'

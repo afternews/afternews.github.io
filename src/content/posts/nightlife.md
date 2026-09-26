@@ -3,8 +3,8 @@ title: "술 없는 클럽은 무엇으로 돈을 버나"
 description: 술 없는 파티가 늘고 있습니다. 세대의 취향이 변한 것으로 읽히지만, 자료를 보면 밤의 요금 청구 방식이 바뀌는 중입니다. 그 변화가 한국의 회식에 대해서도 다른 설명을 내놓습니다.
 pubDate: 2026-08-29
 tags: ['구조 읽기', '판단하는 법']
-cover: '/images/dawndance.png'
-coverAlt: '이른 아침 햇빛 속에서 춤추는 사람들. 생성형 AI로 만든 이미지입니다.'
+cover: '/images/dryclub.png'
+coverAlt: '클럽 바 카운터에서 바텐더가 술이 들어가지 않은 음료를 건네고 있습니다. 생성형 AI로 만든 이미지입니다.'
 references:
   - title: 'The Trend in the News (August 2026)'
     url: 'https://www.globalwellnesssummit.com/trendium/the-trend-in-the-news-august-2026/'
