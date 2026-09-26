@@ -3,6 +3,8 @@ title: "홀로코스트 추모일에 잡힌 메트 갈리아노 회고전 개막
 description: 메트로폴리탄미술관이 준비하는 존 갈리아노 회고전의 개막 행사 날짜가 홀로코스트 추모일과 겹칩니다. 아무도 그렇게 하려 하지 않았을 일정이 잡혔다는 것은 판단의 실패가 아니라 걸러 낼 단계가 없었다는 뜻입니다. 방송 출연 정지부터 교과서 수록까지, 한국에서 반복되는 논란도 같은 자리에 있습니다.
 pubDate: 2026-08-30
 tags: ['판단하는 법', '구조 읽기']
+cover: '/images/gownmannequin.png'
+coverAlt: '미술관 의상 전시실의 마네킹에 입혀진 드레스. 생성형 AI로 만든 이미지입니다.'
 references:
   - title: 'Pace Gallery Founder Arne Glimcher Criticizes Met Museum Over Planned Galliano Show'
     url: 'https://www.artnews.com/art-news/news/met-john-galliano-controversy-arne-glimcher-1234796260/'

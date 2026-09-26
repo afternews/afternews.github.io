@@ -3,6 +3,8 @@ title: "중국 군 숙청 뒤에도 함정 수는 그대로, 느려진 것은 �
 description: 중국에서 100명 넘는 장성이 사라졌습니다. 그런데 함정과 미사일은 그대로입니다. 숙청이 실제로 줄이는 변수는 밖에서 셀 수 없는 쪽에 있고, 그래서 관측은 체계적으로 어긋납니다.
 pubDate: 2026-08-31
 tags: ['구조 읽기', '판단하는 법']
+cover: '/images/navalberth.png'
+coverAlt: '해군 부두에 여러 척이 나란히 정박해 있는 회색 함정들. 생성형 AI로 만든 이미지입니다.'
 references:
   - title: "Xi's Military Purge Sees Loyalists Ousted From China Legislature"
     url: 'https://www.bloomberg.com/news/articles/2026-08-28/xi-s-military-purge-sees-loyalists-ousted-from-china-legislature'

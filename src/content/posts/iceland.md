@@ -3,6 +3,8 @@ title: "아이슬란드 EU 협상 재개 부결, 안보보다 무거웠던 어�
 description: 물은 것은 가입 여부가 아니라 2013년에 중단된 협상을 다시 시작할지였습니다. 수산업 비중 8%의 나라에서 어업이 안보를 눌렀습니다. 논리의 강약이 아니라 이익과 손실이 놓인 모양을 보면, 송전선과 발전소 입지 기사도 같은 그림으로 읽힙니다.
 pubDate: 2026-09-07
 tags: ['구조 읽기', '판단하는 법']
+cover: '/images/trawlerquay.png'
+coverAlt: '북대서양 어항에 접안한 트롤 어선과 부두에 쌓인 그물. 생성형 AI로 만든 이미지입니다.'
 references:
   - title: 'Iceland rejects reopening EU talks in closely fought referendum'
     url: 'https://www.cnbc.com/2026/08/30/iceland-eu-accession-referendum-result.html'

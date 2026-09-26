@@ -4,7 +4,7 @@ description: 일본은행은 9월 18일 정책금리를 1.00%에서 1.25%로 올
 pubDate: 2026-09-21
 tags: ['구조 읽기', '판단하는 법']
 cover: '/images/stucklever.png'
-coverAlt: '한쪽으로 올려진 채 더 움직이지 않는 낡은 금속 레버. 생성형 AI로 만든 이미지입니다.'
+coverAlt: '20세기 초에 지은 일본 도심의 석조 은행 건물 정면. 생성형 AI로 만든 이미지입니다.'
 references:
   - title: 'Change in the Guideline for Money Market Operations'
     url: 'https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2026/k260918a.pdf'

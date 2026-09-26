@@ -4,7 +4,7 @@ description: 미국이 장비를 막자 중국은 만들기 시작했습니다. 
 pubDate: 2026-09-14
 tags: ['자료 해부', '구조 읽기']
 cover: '/images/castmould.png'
-coverAlt: '모래 거푸집과 그 안에서 막 굳은 금속 주물. 생성형 AI로 만든 이미지입니다.'
+coverAlt: '방진복을 입은 작업자가 반도체 공정 장비 앞에서 작업하는 모습. 생성형 AI로 만든 이미지입니다.'
 references:
   - title: "중국 반도체 '장비 굴기'…수출규제가 키운 로컬 생태계"
     url: 'https://www.hankyung.com/article/2026090434916'

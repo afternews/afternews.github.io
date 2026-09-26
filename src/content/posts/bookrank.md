@@ -4,7 +4,7 @@ description: 작가와 출판사 대표가 자기 책 1631권을 5개월에 걸�
 pubDate: 2026-09-11
 tags: ['자료 해부', '판단하는 법']
 cover: '/images/samebooks.png'
-coverAlt: '표지에 아무 표시가 없는 똑같은 양장본이 여러 권 쌓여 있는 모습. 생성형 AI로 만든 이미지입니다.'
+coverAlt: '서점 베스트셀러 진열대에서 책을 꺼내 보는 손님. 생성형 AI로 만든 이미지입니다.'
 references:
   - title: "자기 책 1631권 사재기… '베스트셀러 3위' 만든 유명 작가"
     url: 'https://www.hankookilbo.com/news/article/A2026090916410004289'

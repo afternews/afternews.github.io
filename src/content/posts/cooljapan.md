@@ -4,7 +4,7 @@ description: 일본이 쿨재팬 펀드를 접습니다. 누적손실 540억엔.
 pubDate: 2026-09-01
 tags: ['구조 읽기', '판단하는 법']
 cover: '/images/emptydrawers.png'
-coverAlt: '여러 칸이 열린 채 비어 있는 낡은 서류 캐비닛. 생성형 AI로 만든 이미지입니다.'
+coverAlt: '일본 관광 상점가의 기념품 진열대. 생성형 AI로 만든 이미지입니다.'
 references:
   - title: 'Japan moves to scrap Cool Japan Fund while pushing content grants'
     url: 'https://www.japantimes.co.jp/news/2026/08/21/japan/politics/cool-japan-fund/'

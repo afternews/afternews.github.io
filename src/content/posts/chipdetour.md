@@ -4,7 +4,7 @@ description: 2024년 4월부터 2026년 2월까지 미국에서 동남아시아�
 pubDate: 2026-09-09
 tags: ['구조 읽기', '자료 해부']
 cover: '/images/pipevalves.png'
-coverAlt: '여러 갈래로 갈라진 금속 배관과 그중 하나에만 잠긴 밸브. 생성형 AI로 만든 이미지입니다.'
+coverAlt: '서버랙이 양쪽으로 늘어선 데이터센터 통로. 생성형 AI로 만든 이미지입니다.'
 references:
   - title: 'Nvidia chip export loophole clouds US-China AI summit talks'
     url: 'https://asiatimes.com/2026/09/nvidia-chip-export-loophole-clouds-us-china-ai-summit-talks/'

@@ -4,7 +4,7 @@ description: 정부가 기초연금을 소득에 따라 나눠 주기로 했습�
 pubDate: 2026-09-03
 tags: ['구조 읽기', '판단하는 법']
 cover: '/images/kitchentable.png'
-coverAlt: '창으로 빛이 드는 작은 부엌의 낡은 식탁과 그릇 하나. 생성형 AI로 만든 이미지입니다.'
+coverAlt: '행정복지센터 민원 창구에서 직원이 노인에게 서류를 짚어 주는 모습. 생성형 AI로 만든 이미지입니다.'
 references:
   - title: '[2027 예산안] 기초연금 수급기준 소득 하위 70% 유지, 최저구간에 월 3만원 더'
     url: 'https://www.khan.co.kr/article/202609011507001/'

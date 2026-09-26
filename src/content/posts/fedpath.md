@@ -4,7 +4,7 @@ description: 9월 16일 연준이 3년 만에 금리를 올렸지만, 같은 날
 pubDate: 2026-09-16
 tags: ['자료 해부', '판단하는 법']
 cover: '/images/brasslever.png'
-coverAlt: '한 칸만 올라간 놋쇠 조절 손잡이와 눈금만 남은 계기판. 생성형 AI로 만든 이미지입니다.'
+coverAlt: '대리석 기둥이 늘어선 중앙은행 건물 로비. 생성형 AI로 만든 이미지입니다.'
 references:
   - title: 'Federal Reserve issues FOMC statement (September 16, 2026)'
     url: 'https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm'
