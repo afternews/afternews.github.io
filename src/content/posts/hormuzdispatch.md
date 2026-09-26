@@ -4,7 +4,7 @@ description: 정부가 호르무즈 파병 방안을 검토 중입니다. 거론
 pubDate: 2026-09-06
 tags: ['구조 읽기', '판단하는 법']
 cover: '/images/mooringrope.png'
-coverAlt: '부두 계선주에 감긴 굵은 밧줄과 어두운 물. 생성형 AI로 만든 이미지입니다.'
+coverAlt: '부두에 접안한 회색 군함의 갑판에서 계류 작업을 하는 승조원. 생성형 AI로 만든 이미지입니다.'
 references:
   - title: '靑 "검토 단계", 실리·명분 챙길 저강도 호르무즈 파병 카드는'
     url: 'https://www.mt.co.kr/politics/2026/09/04/2026090416214049774'

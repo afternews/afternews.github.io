@@ -4,7 +4,7 @@ description: 9월 소비자심리지수는 106.6, 금리수준전망은 128, 주
 pubDate: 2026-09-23
 tags: ['자료 해부', '판단하는 법']
 cover: '/images/singlegauge.png'
-coverAlt: '눈금만 있고 숫자가 없는 계기 하나가 벽 가운데에 붙어 있습니다. 생성형 AI로 만든 이미지입니다.'
+coverAlt: '대형마트 진열대 앞에서 카트를 밀며 물건을 고르는 사람. 생성형 AI로 만든 이미지입니다.'
 references:
   - title: '소비자심리지수 (국가지표체계)'
     url: 'https://www.index.go.kr/unity/potal/main/EachDtlPageDetail.do?idx_cd=1058'

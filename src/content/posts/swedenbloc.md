@@ -4,7 +4,7 @@ description: 9월 13일 스웨덴 총선에서 극우 스웨덴민주당 득표�
 pubDate: 2026-09-19
 tags: ['구조 읽기', '판단하는 법']
 cover: '/images/shelfstones.png'
-coverAlt: '나무 선반 두 칸에 같은 수의 돌이 놓여 있고, 한 칸 안에서만 돌들이 한쪽으로 몰려 있는 모습. 생성형 AI로 만든 이미지입니다.'
+coverAlt: '투표소에서 유권자가 투표함에 용지를 넣는 모습. 생성형 AI로 만든 이미지입니다.'
 references:
   - title: 'The 2026 elections'
     url: 'https://www.riksdagen.se/en/news/the-2026-elections/'

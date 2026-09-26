@@ -4,7 +4,7 @@ description: 8월 미국 고용이 예상치의 세 배로 나왔습니다. 그�
 pubDate: 2026-09-05
 tags: ['자료 해부', '판단하는 법']
 cover: '/images/erasedpaper.png'
-coverAlt: '지우개와, 지운 자국이 남은 종이. 생성형 AI로 만든 이미지입니다.'
+coverAlt: '물류창고에서 상자를 분류하는 노동자들. 생성형 AI로 만든 이미지입니다.'
 references:
   - title: 'Employment Situation Summary, 2026 M08'
     url: 'https://www.bls.gov/news.release/empsit.nr0.htm'

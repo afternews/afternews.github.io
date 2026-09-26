@@ -4,7 +4,7 @@ description: 9월 5일 20대가 떴습니다. 8월 일평균의 3.5배입니다.
 pubDate: 2026-09-12
 tags: ['자료 해부', '구조 읽기']
 cover: '/images/seabuoy.png'
-coverAlt: '파도에 절반쯤 잠긴 낡은 금속 계류 부표. 위로는 빈 하늘만 보입니다. 생성형 AI로 만든 이미지입니다.'
+coverAlt: '활주로 주기장에 나란히 세워진 회색 군용기들. 생성형 AI로 만든 이미지입니다.'
 references:
   - title: "중국군, 대만해협서 군용기 20대 출격…'봉쇄훈련' 신호"
     url: 'https://www.newsspace.kr/news/article.html?no=15530'

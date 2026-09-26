@@ -4,7 +4,7 @@ description: 마이크론이 대만 직원들에게 1인당 100만 대만달러�
 pubDate: 2026-09-20
 tags: ['구조 읽기', '자료 해부']
 cover: '/images/twoscoops.png'
-coverAlt: '크기가 다른 두 개의 금속 계량 국자가 같은 통 옆에 놓여 있다. 생성형 AI로 만든 이미지입니다.'
+coverAlt: '작업복을 입은 사람들이 공장 정문 앞에 모여 서 있는 모습. 생성형 AI로 만든 이미지입니다.'
 references:
   - title: 'Micron Technology, Inc. Reports Record Results for the Third Quarter of Fiscal 2026'
     url: 'https://www.sec.gov/Archives/edgar/data/723125/000072312526000013/a2026q3ex991-pressrelease.htm'

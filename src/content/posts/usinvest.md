@@ -4,7 +4,7 @@ description: 첫 투자처가 미국 원전으로 정해지고 있습니다. 총
 pubDate: 2026-09-16
 tags: ['구조 읽기', '자료 해부']
 cover: '/images/meteredtap.png'
-coverAlt: '벽에 달린 낡은 놋쇠 수도꼭지와 그 아래 놓인 눈금 없는 금속 양동이. 생성형 AI로 만든 이미지입니다.'
+coverAlt: '철골이 올라가고 있는 대형 공장 건설 현장과 작업자들. 생성형 AI로 만든 이미지입니다.'
 references:
   - title: '한미, 관세협상 타결…자동차관세 15%·현금투자 연 200억 달러 상한'
     url: 'https://www.korea.kr/news/policyNewsView.do?newsId=148953418'

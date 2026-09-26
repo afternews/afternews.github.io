@@ -4,7 +4,7 @@ description: 자격증을 가진 외국인 71%가 현장에 없어 「유령 인
 pubDate: 2026-09-11
 tags: ['자료 해부', '판단하는 법']
 cover: '/images/hungsmocks.png'
-coverAlt: '탈의실 벽에 걸린 채 아무도 입지 않은 근무복 여러 벌. 생성형 AI로 만든 이미지입니다.'
+coverAlt: '요양시설 복도에서 요양보호사가 휠체어를 밀고 가는 모습. 생성형 AI로 만든 이미지입니다.'
 references:
   - title: "외국인 요양보호사 10명 중 7명 '유령 인력'···정부 '돌봄 대책' 헛바퀴"
     url: 'https://www.khan.co.kr/article/202510301359001'

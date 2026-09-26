@@ -4,7 +4,7 @@ description: 청년 주거정책 이용률은 소득이 높을수록 올라갑�
 pubDate: 2026-08-29
 tags: ['구조 읽기', '자료 해부']
 cover: '/images/doorstairs.png'
-coverAlt: '넓은 출입구 바로 안쪽에 가파른 계단이 서 있는 모습. 생성형 AI로 만든 이미지입니다.'
+coverAlt: '문이 촘촘히 늘어선 다세대 주택의 좁은 복도. 생성형 AI로 만든 이미지입니다.'
 references:
   - title: '청년 특공 문 넓혔지만…소득 1분위 이용률 6.2% 그쳐'
     url: 'https://www.newspim.com/news/view/20260824001157'

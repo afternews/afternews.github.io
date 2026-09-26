@@ -4,7 +4,7 @@ description: AI가 일자리를 없앤다는 말은 '직무' 단위로 세어집
 pubDate: 2026-09-02
 tags: ['구조 읽기', '판단하는 법']
 cover: '/images/scatteredcards.png'
-coverAlt: '나무 탁자 위에 흩어져 놓인 빈 카드들. 생성형 AI로 만든 이미지입니다.'
+coverAlt: '칸막이 책상에서 각자 노트북으로 일하는 사무실 직원들. 생성형 AI로 만든 이미지입니다.'
 references:
   - title: '수행을 넘어서 ‘판단의 구조’로 이동한 인간의 일'
     url: 'https://www.asiae.co.kr/article/2026010210290642788'
