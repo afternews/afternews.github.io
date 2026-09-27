@@ -3,8 +3,8 @@ title: "스페인어 앨범, 그래미 올해의 앨범상 최초 수상 — 영
 description: 스페인어 앨범이 처음으로 그래미 올해의 앨범상을 받았습니다. 비영어권 음악이 갑자기 좋아져서가 아니라, 음악이 팔리는 방식이 바뀌면서 영어라는 관문이 필요 없어진 쪽에 가깝습니다. IFPI와 루미네이트의 수치가 그 변화를 보여 줍니다.
 pubDate: 2026-08-26
 tags: ['구조 읽기', '자료 해부']
-cover: '/images/festival.png'
-coverAlt: '해질 무렵 야외 공연장을 가득 메운 관객. 생성형 AI로 만든 이미지입니다.'
+cover: '/images/latinstage.png'
+coverAlt: '라틴아메리카 야외 공연 무대에서 밴드가 연주하고 있습니다. 생성형 AI로 만든 이미지입니다.'
 references:
   - title: 'Bad Bunny wins album of the year at 2026 Grammy Awards'
     url: 'https://www.npr.org/2026/02/02/nx-s1-5693043/grammys-2026-bad-bunny-album-of-the-year'
