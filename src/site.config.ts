@@ -113,7 +113,7 @@ export const SITE = {
   ga4: '',
 
   /** 구글 서치콘솔 HTML 태그 인증값 (content="..." 안의 값만). 없으면 비워 두세요 */
-  googleSiteVerification: '',
+  googleSiteVerification: 'NdQGrEMQy6I4vMKdIRE0eIzcM34mBsho2_SYLu5gspI',
 
   /** 네이버 서치어드바이저 인증값. 없으면 비워 두세요 */
   naverSiteVerification: '',
