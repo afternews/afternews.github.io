@@ -33,7 +33,7 @@ export const SITE = {
    * ⚠️ sitemap·RSS·공유 미리보기가 전부 이 값을 씁니다.
    *    배포한 뒤 반드시 실제 주소로 바꾸고 다시 올리세요.
    */
-  url: 'https://afternews.github.io',
+  url: 'https://afternews.blog',
 
   locale: 'ko-KR',
 
