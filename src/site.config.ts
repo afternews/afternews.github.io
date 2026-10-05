@@ -110,7 +110,7 @@ export const SITE = {
   },
 
   /** 구글 애널리틱스 4 측정 ID (예: 'G-XXXXXXXXXX'). 없으면 비워 두세요 */
-  ga4: '',
+  ga4: 'G-DF40DBBD5N',
 
   /** 구글 서치콘솔 HTML 태그 인증값 (content="..." 안의 값만). 없으면 비워 두세요 */
   googleSiteVerification: 'NdQGrEMQy6I4vMKdIRE0eIzcM34mBsho2_SYLu5gspI',
