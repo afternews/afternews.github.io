@@ -8,7 +8,7 @@ export default defineConfig({
   trailingSlash: 'ignore',
   integrations: [
     sitemap({
-      filter: (page) => !page.includes('/404'),
+      filter: (page) => !page.includes('/404') && !page.endsWith('/search/'),
     }),
   ],
   markdown: {
