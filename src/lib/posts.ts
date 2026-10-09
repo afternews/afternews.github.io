@@ -8,7 +8,9 @@ export async function getPublishedPosts(): Promise<Post[]> {
     return import.meta.env.PROD ? data.draft !== true : true;
   });
   return posts.sort(
-    (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
+    (a, b) =>
+      b.data.pubDate.valueOf() - a.data.pubDate.valueOf() ||
+      a.id.localeCompare(b.id)
   );
 }
 
@@ -96,7 +98,8 @@ export function relatedPosts(current: Post, all: Post[], limit = 4): Post[] {
     .sort(
       (a, b) =>
         b.score - a.score ||
-        b.post.data.pubDate.valueOf() - a.post.data.pubDate.valueOf()
+        b.post.data.pubDate.valueOf() - a.post.data.pubDate.valueOf() ||
+        a.post.id.localeCompare(b.post.id)
     )
     .slice(0, limit)
     .map((x) => x.post);
