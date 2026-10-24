@@ -3,8 +3,8 @@ title: "배터리를 사던 자동차 회사가 설계에 나섰다 — 1위 CAT
 description: 전기차 값의 3분의 1 안팎인 배터리를 사다 쓰던 중국 자동차 회사들이 배터리 사양을 직접 정하고 주문을 나누기 시작했습니다. 점유율을 지킨 세계 1위 CATL의 주가는 넉 달 새 35% 떨어졌습니다.
 pubDate: 2026-09-17
 tags: ['구조 읽기', '자료 해부']
-cover: '/images/cellstack.png'
-coverAlt: '규격 트레이에 나란히 놓인 원통형 배터리 셀. 생성형 AI로 만든 이미지입니다.'
+cover: '/images/batterydesignlab.png'
+coverAlt: '중국의 배터리 연구실에서 엔지니어 두 명이 작업대 위 배터리 모듈을 살펴보는 모습. 생성형 AI로 만든 이미지입니다.'
 references:
   - title: 'China to impose consumption tax on lithium batteries, exempting sodium-ion and solid-state cells'
     url: 'https://cnevpost.com/2026/07/17/china-to-impose-consumption-tax-lithium-batteries/'
@@ -70,8 +70,8 @@ CATL은 전기차 배터리를 세계에서 가장 많이 만드는 회사입니
 
 자동차 회사로서는 배터리 값을 조금만 낮춰도 차 한 대에서 남기는 돈이 달라집니다. 배터리를 직접 만들거나 설계를 맡으면 배터리 회사가 남기던 이익 일부를 자기가 얻을 수 있고, 한 공급사에 주문을 몰아주지 않으면 값을 정할 때 협상할 여지도 생깁니다.
 
-![조립 라인 끝에서 멈춘 컨베이어. 생성형 AI로 만든 이미지입니다.](/images/conveyorend.png)
-*조립 라인 끝에서 멈춘 컨베이어. 생성형 AI로 만든 이미지입니다.*
+![중국의 전기차 조립 공장에서 작업자들이 차체 바닥에 배터리 팩을 맞춰 넣는 모습. 생성형 AI로 만든 이미지입니다.](/images/evpackinstall.png)
+*중국의 전기차 조립 공장에서 작업자들이 차체 바닥에 배터리 팩을 맞춰 넣는 모습. 생성형 AI로 만든 이미지입니다.*
 
 ## 리오토는 배터리를 사기만 하던 회사에서 사양을 정하는 회사가 됐습니다
 
