@@ -1,19 +1,19 @@
 ---
-title: "스미소니언 다음 사무총장은 누가 고르나"
-description: 다음 사무총장을 고르는 것은 대통령이 아니라 이사 17명이고, 그 가운데 9석은 의회의 합동결의를 거칩니다. 2026 회계연도에 행정부가 요구한 9억 5930만 달러가 의회에서 10억 8050만 달러로 되돌아온 것도 같은 구조입니다. 문화기관과 정치 권력 사이의 거리를 무엇이 지키는지가 여기서 드러납니다.
+title: "해임권 없는 대통령의 해임 발표, 2주 뒤 물러난 스미소니언 관장"
+description: 미국 법상 스미소니언 수장 임명권은 이사회에, 예산 확정권은 의회에 있고, 의회는 2026 회계연도 삭감 요구를 되돌렸습니다. 그래도 대통령이 해임을 발표한 관장은 2주 뒤 물러났고, 다음 수장을 선출할 이사회는 올해 빈 자리를 채우지 못했습니다.
 pubDate: 2026-09-21
 tags: ['구조 읽기', '판단하는 법']
 cover: '/images/lockedcase.png'
 coverAlt: '유물이 치워지고 받침대만 남은 박물관 진열장. 생성형 AI로 만든 이미지입니다.'
 references:
-  - title: 'Smithsonian Secretary Lonnie G. Bunch III Announces Retirement'
-    url: 'https://www.si.edu/newsdesk/releases/smithsonian-secretary-lonnie-g-bunch-iii-announces-retirement'
-    source: 스미소니언 협회
+  - title: 'Smithsonian chief Lonnie G. Bunch III resigns'
+    url: 'https://www.wunc.org/2026-09-08/smithsonian-chief-lonnie-g-bunch-iii-resigns'
+    source: NPR (WUNC 게재)
     date: '2026-09-08'
-  - title: 'FY 2027 Budget Request to Congress'
-    url: 'https://www.si.edu/sites/default/files/about/fy2027-budgetrequestcongress.pdf'
-    source: 스미소니언 협회
-    date: '2026-05-30'
+  - title: 'Lonnie Bunch, Smithsonian Institution secretary, retiring'
+    url: 'https://www.theartnewspaper.com/2026/09/08/lonnie-bunch-smithsonian-institution-secretary-retiring'
+    source: The Art Newspaper
+    date: '2026-09-08'
   - title: 'Smithsonian Board of Regents (팩트시트)'
     url: 'https://www.si.edu/newsdesk/factsheets/smithsonian-board-regents'
     source: 스미소니언 협회
@@ -26,181 +26,128 @@ references:
     url: 'https://uscode.house.gov/view.xhtml?req=%28title%3A20+section%3A43+edition%3Aprelim%29'
     source: 미국 하원 법전실
     date: '2026-09-01'
-  - title: 'Executive Order: Restoring Truth and Sanity to American History'
-    url: 'https://www.whitehouse.gov/presidential-actions/2025/03/restoring-truth-and-sanity-to-american-history/'
-    source: 미국 백악관
-    date: '2025-03-27'
-  - title: 'Letter to the Smithsonian: Internal Review of Smithsonian Exhibitions and Materials'
-    url: 'https://www.whitehouse.gov/briefings-statements/2025/08/letter-to-the-smithsonian-internal-review-of-smithsonian-exhibitions-and-materials/'
-    source: 미국 백악관
-    date: '2025-08-12'
-  - title: 'Letter to the Smithsonian: Review of Smithsonian Exhibitions and Materials'
-    url: 'https://www.whitehouse.gov/briefings-statements/2025/12/letter-to-the-smithsonian-review-of-smithsonian-exhibitions-and-materials/'
-    source: 미국 백악관
-    date: '2025-12-18'
-  - title: 'Executive Order: Restoring Trust in the Smithsonian Institution'
-    url: 'https://www.whitehouse.gov/presidential-actions/2026/07/restoring-trust-in-the-smithsonian-institution-e061/'
-    source: 미국 백악관
-    date: '2026-07-24'
   - title: 'The Smithsonian Institution: Background, Funding, and Issues for Congress'
     url: 'https://www.everycrsreport.com/reports/RL33560.html'
     source: 미국 의회조사국(CRS)
-    date: '2026-09-01'
-  - title: 'Smithsonian removes references to Trump impeachments from exhibit'
-    url: 'https://www.npr.org/2025/08/01/g-s1-80602/smithsonian-impeachment-trump'
-    source: NPR
-    date: '2025-08-01'
-  - title: 'Trump proposes lowest Smithsonian budget in years'
-    url: 'https://hyperallergic.com/trump-proposes-lowest-smithsonian-budget-in-years/'
-    source: Hyperallergic
-    date: '2026-08-04'
-  - title: 'Controversy over the Enola Gay Exhibition'
-    url: 'https://ahf.nuclearmuseum.org/ahf/history/controversy-over-enola-gay-exhibition/'
-    source: 미국 원자력유산재단(AHF)
     date: '2026-09-01'
   - title: 'Smithsonian Institution 통계 (관람·직원·소장품)'
     url: 'https://www.si.edu/newsdesk/about/stats'
     source: 스미소니언 협회
     date: '2026-09-01'
+  - title: '국립중앙도서관장 임명 보도자료 (소속기관 목록)'
+    url: 'https://www.mcst.go.kr/site/s_notice/press/pressView.jsp?pSeq=17439'
+    source: 문화체육관광부
+    date: '2019-09-02'
+  - title: "Smithsonian's governing body quietly losing members"
+    url: 'https://www.theartnewspaper.com/2026/04/03/smithsonian-board-regents-members-terms-expire-trump'
+    source: The Art Newspaper
+    date: '2026-04-03'
+  - title: 'Executive Order: Restoring Truth and Sanity to American History'
+    url: 'https://www.whitehouse.gov/presidential-actions/2025/03/restoring-truth-and-sanity-to-american-history/'
+    source: 미국 백악관
+    date: '2025-03-27'
+  - title: 'FY 2026 Appropriations Process'
+    url: 'https://torch.si.edu/2025/06/fy-2026-appropriations-process'
+    source: 스미소니언 협회
+    date: '2025-06'
+  - title: 'H.R. 6938 — Commerce, Justice, Science; Energy and Water Development; and Interior and Environment Appropriations Act, 2026 (Public Law 119-74)'
+    url: 'https://www.congress.gov/bill/119th-congress/house-bill/6938'
+    source: 미국 의회
+    date: '2026-01-23'
+  - title: 'FY 2027 Budget Request to Congress'
+    url: 'https://www.si.edu/sites/default/files/about/fy2027-budgetrequestcongress.pdf'
+    source: 스미소니언 협회
+    date: '2026-04'
+  - title: 'As Trump threatens the Smithsonian, Congress is on the sidelines'
+    url: 'https://rollcall.com/2026/07/09/trump-threatens-smithsonian-congress-sidelines/'
+    source: Roll Call
+    date: '2026-07-09'
+  - title: 'National Portrait Gallery head resigns two weeks after Trump called for her firing'
+    url: 'https://kvia.com/news/2025/06/13/national-portrait-gallery-head-resigns-two-weeks-after-trump-called-for-her-firing/'
+    source: CNN (KVIA 게재)
+    date: '2025-06-13'
+  - title: 'Letter to the Smithsonian: Review of Smithsonian Exhibitions and Materials'
+    url: 'https://www.whitehouse.gov/briefings-statements/2025/12/letter-to-the-smithsonian-review-of-smithsonian-exhibitions-and-materials/'
+    source: 미국 백악관
+    date: '2025-12-18'
+  - title: "Smithsonian Complies With Trump's Documents Request"
+    url: 'https://hyperallergic.com/smithsonian-complies-with-trumps-document-requests'
+    source: Hyperallergic
+    date: '2026-01-15'
+  - title: 'Smithsonian removes references to Trump impeachments from exhibit'
+    url: 'https://www.npr.org/2025/08/01/g-s1-80602/smithsonian-impeachment-trump'
+    source: NPR
+    date: '2025-08-01'
+  - title: "Reference to Trump's impeachments is removed from the display of his Smithsonian photo portrait"
+    url: 'https://www.clickondetroit.com/news/politics/2026/01/11/reference-to-trumps-impeachments-is-removed-from-the-display-of-his-smithsonian-photo-portrait/'
+    source: AP (ClickOnDetroit 게재)
+    date: '2026-01-11'
+  - title: 'Trump orders signs be installed outside Smithsonian museum warning of inaccurate information'
+    url: 'https://kvia.com/politics/cnn-us-politics/2026/07/24/trump-orders-signs-be-installed-outside-smithsonian-museum-warning-of-inaccurate-information/'
+    source: CNN (KVIA 게재)
+    date: '2026-07-24'
+  - title: 'Trump administration plans ideological warning signs for Smithsonian'
+    url: 'https://www.wunc.org/2026-09-16/trump-administration-plans-ideological-warning-signs-for-smithsonian'
+    source: NPR (WUNC 게재)
+    date: '2026-09-16'
+  - title: 'Controversy over the Enola Gay Exhibition'
+    url: 'https://ahf.nuclearmuseum.org/ahf/history/controversy-over-enola-gay-exhibition/'
+    source: 미국 원자력유산재단(AHF)
+    date: '2026-09-01'
 ---
 
-9월 8일 론니 번치 3세 스미소니언 사무총장이 은퇴를 발표했습니다. 박물관 21개와 국립동물원을 운영하고 직원이 6343명인 기관의 수장 자리입니다. 다음 사람을 고르는 것은 대통령이 아니라 이사 17명입니다. 미국 법률에 대통령이 스미소니언 사무총장을 임명하거나 해임할 권한을 주는 조문은 없습니다.
+트럼프 미국 대통령은 2025년 5월 말 소셜미디어에 스미소니언 국립초상화갤러리 관장 킴 사젯을 해임한다고 썼습니다. 미국 법에는 대통령이 스미소니언 직원을 임명하거나 해임할 수 있다는 조문이 없고, 스미소니언도 관장 인사는 사무총장이 결정한다고 밝혔습니다. 사젯은 2주 뒤인 6월 13일 스스로 물러났습니다. 그리고 2026년 9월 8일, 박물관 21개를 이끄는 론니 번치 3세 사무총장이 연말 은퇴를 발표했습니다.
 
-백악관은 2025년 3월 행정명령 이후 전시 내용 검토와 예산 삭감을 요구해 왔습니다. 그러면 이 자리도 그 요구대로 채워지겠다고 짐작하기 쉽습니다.
+정부로부터 독립을 내건 기관의 인사 뉴스는 세 가지 질문으로 나눠 읽을 수 있습니다. 누가 기관장을 임명하고 해임하는 인사권을 쥐고 있는지, 누가 예산을 확정하는지, 그리고 두 권한이 모두 없는 권력자가 어떤 수단으로 압박하는지입니다. 스미소니언은 앞의 두 질문에 대한 법의 답이 분명한 기관이어서, 세 번째 질문의 답이 실제로 어떻게 작동했는지가 잘 드러납니다.
 
-2026 회계연도에 행정부가 요구한 스미소니언 예산은 9억 5930만 달러였습니다. 의회가 확정한 금액은 10억 8050만 달러입니다. 1억 2120만 달러가 되돌아왔습니다. 문화기관이 정치 권력과 거리를 유지하는 힘은 기관의 명성이나 수장의 소신에서 나오지 않습니다. 누가 사람을 앉히고 누가 돈을 확정하는지를 적어 둔 조문에서 나옵니다. 그래서 어느 나라의 국립기관 인사 소식이든 확인할 것은 같습니다. 임명권이 어디에 있는지, 그리고 예산을 확정하는 곳이 임명하는 곳과 같은지 다른지입니다.
+## [인사권] 수장 임명권은 이사회에 있다
 
-## 스미소니언은 정부 부처가 아닙니다
+스미소니언은 미국 정부 부처에 속하지 않습니다. 영국 과학자 제임스 스미슨이 남긴 유산을 바탕으로 미국 의회가 1846년 법을 만들어 세운 기관이고, 장관이 아니라 이사회가 운영합니다. 한국의 국립중앙박물관이 문화체육관광부 소속 기관인 것과 다릅니다.
 
-번치 사무총장은 2019년 취임한 제14대 사무총장이고, 협회 역사상 처음으로 역사학자 출신이자 처음으로 흑인이 맡은 자리였습니다. 이임 시점은 2026년 말입니다. 본인은 은퇴가 행정부의 압력과 관계없다고 밝혔습니다. 이 인사를 놓고 미국 언론은 「누가 이 정치적 압력을 감당하겠다고 나서겠나」라는 이사회 관계자의 말을 전했습니다. 그 압력이 어디로 들어오고 어디서 막히는지는, 스미소니언이 어떤 조직인지를 알아야 보입니다.
+이사회 17석은 채우는 방식에 따라 세 부류로 나뉩니다.
 
-스미소니언은 미국 연방정부의 행정기관이 아닙니다. 법적으로는 미국의 「신탁 기관」이라고 분류됩니다.
+- 연방대법원장과 부통령 2석: 그 자리에 있으면 자동으로 이사가 됩니다.
+- 상원의원 3명과 하원의원 3명: 의회 몫입니다.
+- 민간 이사 9석: 상원과 하원이 같은 결의안을 통과시키고 대통령이 서명해야 임명되며, 임기는 6년입니다.
 
-출발은 유산입니다. 영국인 과학자 제임스 스미슨이 「인간 사이에 지식을 늘리고 퍼뜨리기 위해」라는 목적으로 약 50만 달러를 미국에 남겼습니다. 미국 의회는 그 돈을 어떻게 쓸지를 놓고 여러 해 논쟁한 끝에 1846년 8월 10일 법을 만들어 스미소니언 협회를 세웠습니다. 이 법이 지금도 협회의 근거 법률입니다.
+사무총장은 이 이사회가 선출합니다. 프랭클린 레인스 이사장은 9월 8일 사무총장 대행을 곧 지명하고, 전국 단위로 후임 인선에 착수하겠다고 밝혔습니다.
 
-그래서 스미소니언은 어느 부처에도 속하지 않습니다. 장관이 지휘하지 않고, 행정부 조직도에 들어가지 않습니다. 소송이나 공무원 재해보상 같은 일부 사안에서는 법원이 연방 주체로 취급하는 경향이 있지만, 지휘 체계로 보면 독립 기구입니다.
+행정부가 이사회에 직접 앉힌 사람은 부통령 한 명입니다. 트럼프 대통령은 2025년 3월 27일 행정명령에서 부통령에게 이사 자리를 이용해 박물관에서 부적절한 이념을 걷어 내라고 지시했습니다.
 
-규모는 작지 않습니다. 박물관 21개와 국립동물원, 여러 연구시설을 운영합니다. 소장품은 약 1억 5700만 점인데, 이 가운데 약 1억 4800만 점이 자연사박물관의 과학 표본입니다. 직원은 6343명입니다. 2025년 관람은 1490만 회였습니다. 스미소니언은 사람 수가 아니라 관람 횟수를 셉니다. 한 사람이 하루에 세 박물관을 보면 세 번으로 집계됩니다.
+대통령 서명이 필요한 민간 이사 자리는 의회와 대통령 중 어느 한 곳이 미루기만 해도 빕니다. 아트뉴스페이퍼에 따르면 2026년 3월 2일 민간 이사 두 명의 임기가 끝나 이사회가 15명으로 줄었고, 이사회가 전해에 골라 둔 후임 명단은 의회로 넘어가지 않았습니다. 가을에는 세 명의 임기가 더 끝납니다.
 
-## 이사회 17석은 이렇게 채워집니다
+## [예산권] 예산 확정권은 의회에 있다
 
-협회를 운영하는 것은 이사회입니다. 17석이고, 채우는 방식이 자리마다 다릅니다.
+스미소니언 재원의 3분의 2 가까이는 연방 예산입니다. 행정부가 예산안을 내면 의회가 세출법으로 최종 금액을 확정합니다. 미국 연방 회계연도는 10월 1일 시작하므로, 2026 회계연도는 2025년 10월부터입니다.
 
-<figure style="margin:2.4rem 0;">
-  <figcaption style="font-size:.9rem;opacity:.75;margin-bottom:1.2rem;">스미소니언 이사회 17석의 구성</figcaption>
-  <div style="font-size:.92rem;">
-    <div style="border-left:3px solid currentColor;padding:.5rem 0 .5rem 1rem;margin-bottom:1rem;">
-      <div style="font-weight:700;">당연직 2석</div>
-      <div style="opacity:.8;margin-top:.35rem;line-height:1.8;">연방대법원장과 부통령. 그 자리에 있으면 자동으로 이사가 됩니다. 별도 임명 절차가 없습니다.</div>
-    </div>
-    <div style="border-left:3px solid currentColor;padding:.5rem 0 .5rem 1rem;margin-bottom:1rem;opacity:.9;">
-      <div style="font-weight:700;">의원 6석</div>
-      <div style="opacity:.8;margin-top:.35rem;line-height:1.8;">상원의원 3명은 상원의장이, 하원의원 3명은 하원의장이 지명합니다. 대통령은 관여하지 않습니다.</div>
-    </div>
-    <div style="border-left:3px solid currentColor;padding:.5rem 0 .5rem 1rem;opacity:.85;">
-      <div style="font-weight:700;">민간 이사 9석</div>
-      <div style="opacity:.8;margin-top:.35rem;line-height:1.8;">의회가 상·하원 합동결의로 뽑고 대통령이 서명합니다. 임기는 6년이고 연속 두 번까지 할 수 있습니다. 현직 의원은 될 수 없습니다.</div>
-    </div>
-  </div>
-  <figcaption style="font-size:.84rem;opacity:.6;margin-top:1rem;">사무총장은 이 이사회가 선임합니다.</figcaption>
-</figure>
+- 2026 회계연도: 행정부는 9억5930만 달러를 요구했습니다. 직전 해보다 12% 적은 금액입니다. 의회는 2026년 1월 23일 세출법으로 10억8050만 달러를 배정했고, 롤콜에 따르면 대통령 뜻을 담은 별도 조건도 달지 않았습니다.
+- 2027 회계연도: 행정부는 9억6130만 달러를 요구했습니다. 2026년 확정액보다 약 11% 적고, 전일 근무 기준 인력을 4100명에서 3844명으로 줄이는 안이 들어 있습니다. 9월 21일 현재 의회는 금액을 정하지 않았습니다.
 
-여기서 「합동결의」는 상원과 하원이 같은 내용을 함께 의결하고 대통령이 서명하는 절차입니다. 법률을 만드는 것과 거의 같은 과정을 거칩니다. 대통령 혼자 사람을 앉힐 수 없다는 뜻입니다. 민간 이사 9명 중 2명은 워싱턴 D.C. 거주자여야 하고 7명은 서로 다른 주에서 와야 합니다.
+## [우회 압박] 두 권한 없이 백악관이 쓴 네 가지 수단
 
-**사무총장은 이 이사회가 선임합니다.** 보수도 이사회가 정합니다. 사무총장은 이사회의 간사를 겸하지만 의결권은 없습니다. 미국 법률에 대통령이 스미소니언 사무총장을 임명하거나 해임할 권한을 주는 조문은 없습니다.
+백악관이 2025년부터 쓴 수단은 해임권이나 예산권이 필요 없는 것들이었습니다.
 
-행정부가 직접 쓸 수 있는 통로는 하나입니다. 부통령이 당연직 이사라는 사실입니다. 2025년 3월 행정명령이 왜 「부통령이 이사 지위를 통해」 움직이라고 지시했는지가 여기서 설명됩니다. 다른 문을 쓸 수 없어서 그 문을 쓴 것입니다.
+- 공개 해임 발표(2025년 5월): 트럼프 대통령은 사젯 관장을 당파적이라고 비판하며 해임을 발표했습니다. 스미소니언은 그 주에 모든 인사 결정은 사무총장이 한다고 밝혔고, 사젯은 「쉬운 결정은 아니었지만 옳은 결정」이라며 2주 뒤 물러났습니다.
+- 자료 요구와 예산 조건(2025년 8월부터): 백악관은 박물관 8곳의 전시 자료를 요구했고, 12월 18일 서신에서는 전시 설명문 전부와 2029년까지의 전시 계획, 큐레이터 약력까지 달라고 했습니다. 이 서신에서 백악관은 의회가 배정한 예산도 자신들의 검토를 따를 때만 쓸 수 있다고 했지만, 그렇게 할 근거는 적지 않았습니다. 스미소니언은 2026년 1월 13일 전시 설명문 사진 등을 냈습니다.
+- 보고서(2026년 7월 4일): 백악관 정책 참모 조직인 국내정책위원회가 국립미국사박물관이 극단적 정치 행동주의에 빠졌다는 보고서를 냈습니다.
+- 박물관 밖 표지판(2026년 7월 24일): 박물관 앞 보도는 스미소니언이 아니라 국립공원청이 관리합니다. 트럼프 대통령은 행정명령으로 국립공원청에 이 보도에 보고서 내용을 알리는 임시 표지판을 세우라고 지시했습니다. 더그 버검 내무장관은 9월 3일 서신에서 표지판 12개를 모두 8만4000달러로 준비하고 있다고 밝히며 번치 사무총장을 직접 비난했습니다.
 
-## 압력은 세 갈래로 들어왔습니다
+같은 기간 전시 설명도 두 차례 바뀌었습니다. 2025년 7월 국립미국사박물관에서 트럼프 대통령의 두 차례 탄핵 소추를 언급한 임시 설명판이 철거됐고, 스미소니언은 해당 구역을 2008년 상태로 되돌린 것이라고 설명했습니다. 2026년 1월에는 국립초상화갤러리의 트럼프 사진 옆 설명문이 없어지면서 탄핵 언급도 빠졌습니다. 두 번 모두 스미소니언이 직접 고쳤고, 백악관은 변경을 요청했는지 답하지 않았습니다.
 
-2025년 3월 27일 대통령은 「미국 역사에 진실과 온전함을 되돌리기」라는 제목의 행정명령에 서명했습니다. 행정명령은 대통령이 행정부에 내리는 지시입니다. 의회를 거치지 않으므로 빠르지만, 행정부가 이미 가진 권한 안에서만 효력이 있습니다.
+번치 사무총장은 버검 장관의 서신 닷새 뒤 은퇴를 발표했습니다. 그는 73세이고 스미소니언에서 38년을 일했으며, 은퇴 결정은 대통령의 비판과 관계없다고 밝혔습니다.
 
-이 명령의 제2조에는 부통령이 이사 지위를 통해 박물관에서 부적절한 이념을 제거하도록 하고, 예산관리국장과 부통령이 의회와 협력해 앞으로의 예산이 특정 전시와 프로그램에 쓰이지 않도록 하라는 내용이 담겼습니다.
+## 1995년에도 전시를 취소한 사람은 사무총장이었다
 
-두 번째 갈래는 서신입니다. 2025년 8월 12일 백악관 참모들이 번치 사무총장에게 8개 박물관을 대상으로 문서를 요구했습니다. 30일 안에 전시 설명과 기획안, 75일 안에 나머지 자료와 큐레이터 면담 개시, 120일 안에 내용 수정 착수를 요구하는 일정표가 붙었습니다. 2025년 12월 18일에는 두 번째 서신이 갔습니다. 전시 벽면 문구, 예산, 유물 목록, 2026년부터 2029년까지의 전시 색인 전체, 지배구조 문서와 직원 약력까지 범위가 넓어졌습니다. 제출 기한은 이듬해 1월 13일이었습니다.
+결정권이 사무총장에게 있어도 바깥 압력에 결정이 바뀐 전례가 있습니다. 스미소니언 항공우주박물관은 1994년 히로시마에 원자폭탄을 떨어뜨린 폭격기 에놀라 게이를 중심에 둔 전시를 준비했습니다. 전시 원고에는 피폭자 사진과 히로시마·나가사키의 유물이 들어 있었습니다.
 
-스미소니언은 기한일에 자료를 냈습니다. 번치 사무총장은 「관련성 있고 적절한 자료」를 계속 제공하겠다고 표현했습니다. 백악관이 만족했는지는 확인되지 않았습니다.
+참전 군인 단체들은 전시가 참전용사를 모욕한다고 반발했고, 미국 상원은 1994년 9월 원고가 많은 2차대전 참전용사에게 모욕적이라는 결의를 만장일치로 통과시켰습니다. 원고는 여러 차례 고쳐졌고, 이번에는 역사학자들이 반발했습니다. 마이클 헤이먼 사무총장은 1995년 1월 30일 전시를 취소했고, 마틴 하위트 항공우주박물관장은 5월 2일 사임했습니다.
 
-2026년 7월 24일에는 두 번째 행정명령이 나왔습니다. 「스미소니언 협회에 대한 신뢰 회복」입니다. 이 명령은 국립공원청에 미국사박물관 인접 보도에 임시 표지판을 설치하도록 지시했습니다. 박물관 안을 고칠 권한은 없으니 박물관 밖의 연방 관리 보도를 쓴 것입니다. 실제로 박물관 외부에 임시 표지판 12개가 설치됐고, 비용은 8만 4000달러였습니다.
+그때도 의회에는 전시를 취소할 권한이 없었습니다. 1995년 결의로 스미소니언을 압박한 곳은 의회였고, 2026년 행정부의 예산 삭감 요구를 되돌린 곳도 의회입니다.
 
-## 세 번째 갈래는 예산이고, 여기서 한 번 막혔습니다
+## 의회가 삭감 요구를 되돌린 해는 아직 하나다
 
-가장 실질적인 수단은 돈입니다. 스미소니언 재원의 약 62%가 연방에서 옵니다. 나머지는 기부와 기금 운용, 그리고 기념품점과 출판 같은 자체 사업에서 나옵니다.
+의회가 행정부의 삭감 요구를 되돌린 해는 2026 회계연도뿐입니다. 2027 회계연도에 요구액대로 확정되면 2026년의 일은 한 해에 그칩니다. 사젯과 번치가 물러난 이유는 두 사람이 밝힌 대로 적었고, 그와 다른 이유가 있는지는 다루지 않았습니다. 이사회 빈자리 수는 4월 아트뉴스페이퍼 보도, 표지판 계획은 9월 16일 NPR 보도 기준이며, 그때까지 표지판 문구는 확정되지 않았습니다.
 
-미국 연방 예산은 두 단계를 거칩니다. 행정부가 회계연도별로 얼마를 달라고 요구하고, 의회가 세출법을 만들어 실제 금액을 정합니다. 미국 연방 회계연도는 10월 1일에 시작합니다. 2026 회계연도는 2025년 10월에 시작한 해입니다.
+## 법이 정한 두 권한은 2026년 9월까지 그대로였다
 
-2026 회계연도에 행정부가 요구한 스미소니언 예산은 9억 5930만 달러였습니다. 직전 해 확정액 10억 9050만 달러보다 약 12% 적은 금액입니다.
-
-**의회가 확정한 금액은 10억 8050만 달러였습니다.** 2026년 1월 23일 제정된 세출법에 담긴 액수입니다. 행정부 요구보다 1억 2120만 달러 많습니다. 삭감 요구가 의회에서 되돌려진 것입니다.
-
-세부를 보면 방향이 더 분명합니다. 인건비와 운영비 항목은 직전 해 8억 9285만 달러에서 9억 2850만 달러로 오히려 늘었습니다. 줄어든 것은 시설 자본 항목입니다. 건물 보수와 설비 교체에 쓰는 돈이 1억 9765만 달러에서 1억 5200만 달러가 됐습니다.
-
-## 2027 회계연도 요구는 11% 삭감입니다
-
-2027 회계연도 요구액은 9억 6130만 달러입니다. 2026 회계연도 확정액 10억 8050만 달러와 비교하면 1억 1920만 달러, 약 11% 적습니다.
-
-인력도 같이 줄어듭니다. 전일 근무 환산 인원 기준으로 4100명에서 3844명으로, 256명 약 6% 감축이 요구안에 들어 있습니다. 전일 근무 환산은 시간제 근무를 전일 근무로 바꿔 센 숫자입니다. 두 사람이 반씩 일하면 1명으로 집계됩니다.
-
-<figure style="margin:2.4rem 0;">
-  <figcaption style="font-size:.9rem;opacity:.75;margin-bottom:1.1rem;">스미소니언 연방 예산, 요구액과 확정액 (단위: 백만 달러)</figcaption>
-  <div style="font-size:.95rem;">
-    <div style="display:flex;gap:1rem;padding:.9rem 0;border-bottom:1px solid currentColor;">
-      <div style="flex:0 0 8.5rem;opacity:.7;">2025 회계연도 확정</div>
-      <div style="flex:1;text-align:right;font-weight:700;">1,090.5</div>
-    </div>
-    <div style="display:flex;gap:1rem;padding:.9rem 0;border-bottom:1px solid currentColor;">
-      <div style="flex:0 0 8.5rem;opacity:.7;">2026 회계연도 요구</div>
-      <div style="flex:1;text-align:right;">959.3</div>
-    </div>
-    <div style="display:flex;gap:1rem;padding:.9rem 0;background:var(--ink);color:var(--paper);margin:0 -.6rem;padding-left:.6rem;padding-right:.6rem;">
-      <div style="flex:0 0 8.5rem;opacity:.75;">2026 회계연도 확정</div>
-      <div style="flex:1;text-align:right;font-weight:700;">1,080.5</div>
-    </div>
-    <div style="display:flex;gap:1rem;padding:.9rem 0;border-bottom:1px solid currentColor;">
-      <div style="flex:0 0 8.5rem;opacity:.7;">2027 회계연도 요구</div>
-      <div style="flex:1;text-align:right;">961.3</div>
-    </div>
-  </div>
-  <figcaption style="font-size:.84rem;opacity:.6;margin-top:1rem;">2026 회계연도에는 요구액과 확정액이 1억 2120만 달러 벌어졌습니다. 2027 회계연도의 확정액은 아직 나오지 않았습니다.</figcaption>
-</figure>
-
-2027 회계연도 세출법의 의회 처리 결과는 아직 나오지 않았습니다. 이 글을 쓰는 9월 21일은 2027 회계연도가 시작되기 열흘 전입니다.
-
-## 전시물이 실제로 바뀐 두 사건
-
-내용이 바뀐 사례는 두 건이 확인됩니다. 서로 다른 시점의 다른 박물관 일이어서 구별해야 합니다.
-
-첫째는 2025년 7월 국립미국사박물관입니다. 「미국의 대통령직: 영광스러운 짐」이라는 상설 전시 안에, 2021년 9월에 붙은 임시 설명 라벨이 있었습니다. 트럼프 대통령이 두 차례 탄핵 소추된 사실을 언급한 라벨입니다. 이것이 2025년 7월 철거됐고 8월 1일 보도로 알려졌습니다. 스미소니언은 해당 섹션의 다른 주제들이 2008년 이후 갱신되지 않았기 때문에 탄핵 부분도 2008년 상태로 되돌린 것이며, 문제의 라벨은 당시 현안에 대응한 단기 조치였다고 설명했습니다. 그러면서 미국 역사상 모든 탄핵 절차를 반영하도록 이 섹션을 갱신하겠다고 했습니다. 시점은 제시하지 않았습니다.
-
-둘째는 2026년 1월 보도된 국립초상화갤러리입니다. 「미국 대통령들」 전시의 트럼프 초상 설명에서 두 차례 탄핵 언급이 빠졌습니다. 온라인 설명에는 남아 있었습니다.
-
-인사 쪽 압력도 있었습니다. 백악관은 국립초상화갤러리 관장 킴 사젯의 해임을 시도했습니다. 이사회 공석도 채워지지 않고 있습니다. 17석 중 3석이 비어 있고, 10월 2일에 3석의 임기가 더 끝납니다. 이사회가 낸 후보 명단에 백악관이 응답하지 않고 있습니다.
-
-<figure style="margin:2.4rem 0;">
-  <img src="/images/seatingring.png" alt="원형으로 놓인 나무 의자들 가운데 세 자리가 비어 있는 빈 회의실" width="1376" height="774" loading="lazy" decoding="async" style="width:100%;height:auto;" />
-  <figcaption style="font-size:.82rem;opacity:.6;margin-top:.7rem;text-align:center;">17석 가운데 3석이 비어 있고, 10월 2일에 3석의 임기가 더 끝납니다. 생성형 AI로 만든 이미지입니다.</figcaption>
-</figure>
-
-## 1995년에는 어떻게 끝났나
-
-지금이 처음은 아닙니다.
-
-1994년 스미소니언 항공우주박물관은 히로시마에 원자폭탄을 투하한 폭격기 에놀라 게이를 중심에 놓은 전시를 준비했습니다. 각본에는 피폭자 사진과 히로시마·나가사키의 유물이 들어 있었습니다.
-
-공군협회와 미국재향군인회가 반발했습니다. 전시가 일본과 미국을 도덕적으로 대등하게 취급하며 참전용사를 모욕한다는 것이었습니다. 1994년 9월 미국 상원은 각본이 「수정주의적이며 다수의 2차대전 참전용사에게 모욕적」이라는 결의를 만장일치로 통과시켰습니다.
-
-각본은 다섯 차례까지 고쳐졌습니다. 피폭자 사진이 빠지고 일본의 전쟁범죄 부분이 늘어났습니다. 이번에는 일본 측이 항의하고, 역사학자들이 「역사 세탁」이라고 반발했습니다. 1995년 1월 30일 마이클 헤이먼 사무총장이 전시를 전면 취소했습니다. 5월 2일 항공우주박물관장 마틴 하위트가 사임했습니다. 전시는 역사적 맥락을 최소화하고 비행기 동체만 보여 주는 축소판으로 대체됐고, 약 400만 명이 봤습니다.
-
-1995년의 압력은 의회 결의와 참전단체 여론을 통해 들어왔습니다. 2025년과 2026년의 압력은 행정명령, 백악관 서신, 예산 요구, 이사 공석이라는 네 갈래로 들어오고 있습니다. 경로가 훨씬 제도화됐습니다.
-
-같은 것도 있습니다. 1995년에도 전시를 취소한 사람은 대통령이 아니라 사무총장이었습니다. 지금도 다음 사무총장을 고르는 것은 이사회입니다. 그 자리를 누가 채우느냐가 이 사안에서 정해지지 않은 유일한 변수입니다. 그리고 그것을 정할 17석 중 9석은 의회의 합동결의를 거칩니다.
-
-## 의회가 스미소니언 예산을 지킨 것은 아직 한 해뿐이다
-
-**첫째, 사무총장 은퇴의 이유를 제가 확인할 수 없습니다.** 번치 사무총장은 압력과 무관하다고 밝혔고, 당시 73세로 박물관 경력 38년이었으며 집필과 가족과의 시간을 이유로 들었습니다. 이 글은 은퇴가 압력의 결과라고 주장하지 않습니다. 다만 인선 절차가 압력 국면과 겹친다는 점만 다룹니다. 만약 은퇴 배경에 제가 모르는 사정이 있다면 이 글의 무게중심이 달라집니다.
-
-**둘째, 의회가 예산을 지켰다는 판단이 한 해의 결과에 기대고 있습니다.** 2026 회계연도에 요구액이 되돌려진 것은 사실이지만, 2027 회계연도 세출법의 처리 결과는 아직 나오지 않았습니다. 만약 이번에 요구액대로 확정되면 「의회가 방어선」이라는 이 글의 구조 설명은 한 해짜리 예외를 일반화한 것이 됩니다.
-
-**셋째, 신탁 재원의 규모를 제가 확인하지 못했습니다.** 스미소니언은 재원의 약 62%가 연방이라고만 밝히고 있고, 나머지 38%가 실제로 몇 달러이며 그중 얼마가 특정 용도로 묶여 있는지는 최근 회계연도 자료에서 확인하지 못했습니다. 이 금액이 크고 용도가 자유롭다면 연방 예산 삭감의 실제 타격은 제가 쓴 것보다 작습니다.
-
-**넷째, 인력 감축 수치의 기준이 자료마다 다릅니다.** 스미소니언의 예산요구서는 4100명에서 3844명으로 적고 있고, 다른 보도는 4047명에서 출발한다고 씁니다. 전일 근무 환산 인원과 실제 재직자 수는 다른 숫자입니다. 제가 예산요구서 쪽을 택했지만, 기준이 무엇인지에 따라 감축 폭의 해석이 달라질 수 있습니다.
+2026년 9월까지 수장 임명권은 이사회에, 예산 확정권은 의회에 그대로 있었습니다. 같은 기간 관장 한 명이 해임 발표 2주 뒤 물러났고, 민간 이사 자리가 비었고, 백악관의 자료 요구는 예산 조건과 함께 이어졌습니다. 임명권과 예산권이 누구에게 있는지만으로는 이 일들을 설명할 수 없습니다. 다음 사무총장은 이 상태의 이사회가 고릅니다.
