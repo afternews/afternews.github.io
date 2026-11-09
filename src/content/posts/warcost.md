@@ -1,6 +1,6 @@
 ---
-title: "이란 전쟁 승자와 패자 명단, 미국과 영국은 양쪽에"
-description: 이란 전쟁의 경제적 승자와 패자 명단에 미국과 영국이 양쪽에 동시에 올라 있습니다. 엑손모빌과 셰브런이 한쪽, 미국 납세자가 다른 쪽입니다. 이 전쟁의 손익을 가르는 선은 국경이 아니라 소유입니다.
+title: "정유사가 더 번 돈은 금액으로, 가계가 더 낸 기름값은 상승률로 나왔다"
+description: HD현대오일뱅크는 2분기 영업이익 1조8241억 원을 공시했지만, 같은 석 달 가계가 기름값을 얼마나 더 냈는지는 석유류 물가 24.7% 상승이라는 비율로만 나옵니다. 지난해 기름값 지출에 이 상승률을 곱하면 내 부담도 금액으로 나옵니다.
 pubDate: 2026-09-02
 tags: ['구조 읽기', '자료 해부']
 cover: '/images/refinery.png'
@@ -10,156 +10,60 @@ references:
     url: 'https://www.aljazeera.com/economy/2026/8/31/who-are-the-economic-winners-and-losers-of-the-us-israel-war-on-iran'
     source: Al Jazeera
     date: 2026-08-31
-  - title: 'Quantifying the impact of the Iran war on US inflation'
-    url: 'https://cepr.org/voxeu/columns/quantifying-impact-iran-war-us-inflation'
-    source: CEPR
-    date: 2026-05-04
-  - title: 'Iran Economic Crisis: Cooking Oil Up 383%, Eggs 294% and Chicken 177% as Rial Collapse Squeezes Households'
-    url: 'https://sundayguardianlive.com/world/iran-economic-crisis-cooking-oil-up-383-eggs-294-and-chicken-177-as-rial-collapse-squeezes-households-fuel-shortages-add-to-cost-of-living-crisis-us-israel-iran-war-latest-live-news-274303/'
-    source: The Sunday Guardian
-  - title: "Iran's inflation spiral deepens as rial slides and tensions rise"
-    url: 'https://www.euronews.com/business/2026/06/30/irans-inflation-spiral-deepens-as-rial-slides-and-tensions-rise'
-    source: Euronews
-    date: 2026-06-30
-  - title: '2026 Iran war'
-    url: 'https://www.britannica.com/event/2026-Iran-war'
-    source: Britannica
+  - title: 'ExxonMobil Announces Second-Quarter 2026 Results'
+    url: 'https://investor.exxonmobil.com/company-information/press-releases/detail/1208/exxonmobil-announces-second-quarter-2026-results'
+    source: ExxonMobil
+    date: 2026-07-31
+  - title: 'Middle East Airlines Face $4.3 Billion Loss — the Only Region in the Red'
+    url: 'https://skift.com/2026/06/08/middle-east-airlines-face-4-3-billion-loss-the-only-region-in-the-red/'
+    source: Skift
+    date: 2026-06-08
+  - title: 'US-Iran war pushing millions into food crisis, warns UN'
+    url: 'https://www.aljazeera.com/news/2026/6/5/us-iran-war-pushing-millions-into-food-crisis-warns-un'
+    source: Al Jazeera
+    date: 2026-06-05
+  - title: 'SK·GS·HD·S-Oil 등 2분기 역대급 실적'
+    url: 'https://mobile.newsis.com/view/NISX20260803_0003733864'
+    source: 뉴시스
+    date: 2026-08-03
+  - title: '8월 소비자물가 2.8%↑…석유류 안정에 2%대 복귀(종합2보)'
+    url: 'https://www.newsis.com/view/NISX20260804_0003735644'
+    source: 뉴시스
+    date: 2026-08-04
 ---
 
-이란 전쟁의 경제적 승자와 패자 명단에 미국이 양쪽에 다 올라 있습니다. 엑손모빌과 셰브런과 4대 은행이 왼쪽에 있고, 미국 납세자가 오른쪽에 있습니다. 영국도 양쪽에 있습니다. 셸과 BP와 HSBC가 왼쪽, 유가와 물가를 부담하는 영국 가계가 오른쪽입니다.
+HD현대오일뱅크는 8월 초 2분기 영업이익이 1조8241억 원이라고 공시했습니다. 같은 석 달 동안 기름값을 더 낸 가계의 부담은 6월 석유류 물가가 1년 전보다 24.7% 올랐다는 비율로만 나옵니다. 정유사가 더 번 돈은 억 원 단위까지 나오는데, 우리 집이 더 낸 돈은 어느 통계에도 금액으로 적혀 있지 않습니다.
 
-알자지라가 8월 31일 이 전쟁의 경제적 승자와 패자를 명단으로 냈습니다. 명단을 그대로 옮기면 이렇습니다. 숫자는 모두 2분기 실적입니다.
+누가 감춰서 생긴 차이는 아닙니다. 상장회사는 석 달마다 결산해 이익을 금액으로 공개해야 하지만, 가계는 그런 발표를 하지 않고 정부 물가 통계는 값이 얼마나 올랐는지를 비율로 잽니다. 알자지라가 8월 31일 낸 이란 전쟁 승자·패자 명단도 승자 쪽은 회사 실적 금액으로, 패자 쪽은 대부분 추정으로 적었습니다. 이 차이를 알면 두 쪽 숫자를 그대로 견주지 않게 되고, 내가 더 낸 돈도 금액으로 바꿔 가늠해 볼 수 있습니다. 2월 28일 미국과 이스라엘의 공습으로 시작된 이란 전쟁은 9월 2일 현재 끝나지 않았습니다.
 
-<figure style="margin:2.4rem 0;">
-  <div style="display:flex;flex-wrap:wrap;gap:1.2rem;">
-    <div style="flex:1 1 260px;border:1px solid currentColor;border-radius:10px;padding:1.1rem 1.2rem;">
-      <div style="font-weight:700;margin-bottom:.8rem;">이익을 본 쪽</div>
-      <div style="font-size:.9rem;line-height:2;opacity:.85;">
-        엑손모빌 145억 달러 <span style="opacity:.65;">(4년 만의 최고)</span><br>
-        셰브런 120억 달러 <span style="opacity:.65;">(6년 만의 최고)</span><br>
-        셸 98억 달러 <span style="opacity:.65;">(전년의 2배)</span><br>
-        BP 57억 달러 <span style="opacity:.65;">(2배)</span><br>
-        사우디 아람코 334억 달러<br>
-        미국 4대 은행 합산 425억 달러<br>
-        HSBC 101억 달러 <span style="opacity:.65;">(60% 증가)</span><br>
-        록히드마틴 <span style="opacity:.65;">패트리엇 증산 계약, 주가 14% 상승</span>
-      </div>
-    </div>
-    <div style="flex:1 1 260px;border:1px solid currentColor;border-radius:10px;padding:1.1rem 1.2rem;background:var(--ink);color:var(--paper);">
-      <div style="font-weight:700;margin-bottom:.8rem;">손실을 본 쪽</div>
-      <div style="font-size:.9rem;line-height:2;opacity:.9;">
-        미국 납세자 <span style="opacity:.7;">7월 말까지 375억 달러</span><br>
-        <span style="opacity:.7;">총비용 1조 달러 추산도 있음</span><br>
-        중동 항공사 43억 달러 적자 전망<br>
-        <span style="opacity:.7;">2025년에는 72억 달러 흑자였음</span><br>
-        도요타 <span style="opacity:.7;">7월 판매 5% 감소, 6개월 연속</span><br>
-        폭스바겐 <span style="opacity:.7;">2분기 이익 3분의 1 감소</span><br>
-        소말리아·아프가니스탄·스리랑카<br>
-        <span style="opacity:.7;">끼니를 제대로 잇지 못하는 사람 710만 명 추가</span>
-      </div>
-    </div>
-  </div>
-</figure>
+## [승자 숫자] 정유사와 석유회사 이익은 석 달 결산 금액으로 나온다
 
-이 명단을 "산유국이 이기고 비산유국이 진다"로 요약하면 뭔가가 빠집니다. 같은 나라 안에서 갈립니다. 2월 28일 미국과 이스라엘의 공격으로 시작된 전쟁은 6개월을 넘겼고, 6월에 한 차례 휴전이 있었다가 7월에 깨졌습니다.
+정유사는 원유를 사서 휘발유·경유로 만들어 팝니다. 원유값과 제품값의 차이를 정제마진이라고 하는데, 2분기 아시아 정제마진은 배럴당 30달러 안팎까지 벌어졌습니다. HD현대오일뱅크는 1년 전 2413억 원 영업손실에서 1조8241억 원 영업이익으로 돌아섰고, 에쓰오일도 9650억 원 영업이익을 냈습니다.
 
-## 선이 어디에 그어져 있나
+해외 석유회사도 같은 석 달 실적을 금액으로 내놓았습니다. 엑손모빌은 145억 달러로 4년 만에, 셰브런은 120억 달러로 6년 만에 가장 많이 벌었고, 셸과 BP는 1년 전의 두 배를 넘었습니다. 알자지라는 이 회사들을 이란 전쟁의 승자로 꼽았습니다. 엑손모빌이 7월 31일 낸 발표문에는 이익이 백만 달러 단위까지 나옵니다.
 
-저는 이렇게 봅니다. 이 전쟁의 손익을 가르는 선은 국경이 아니라 소유입니다.
+이 이익이 모두 전쟁 덕분인지는 따로 계산된 적이 없습니다. 엑손모빌은 발표문에서 실적이 유가 상승 덕분이라고 밝히지 않았고, 한국 정유사 실적에는 원·달러 환율이 오른 효과도 더해졌습니다.
 
-유가가 오르면 두 종류의 사람이 생깁니다. 석유 자산을 가진 쪽과 석유를 사서 쓰는 쪽입니다. 앞쪽은 이익을 보고 뒤쪽은 손해를 봅니다. 그리고 이 둘은 대개 같은 나라 안에 함께 있습니다.
+## [패자 숫자] 가계와 정부의 부담은 비율과 추정으로 나온다
 
-방산도 마찬가지입니다. 록히드마틴의 주주는 이익을 보고, 그 무기값을 세금으로 내는 사람은 손해를 봅니다. 둘 다 미국 안에 있습니다.
+국내 소비자 쪽 숫자는 비율입니다. 국가데이터처 발표로 6월 석유류 물가는 1년 전보다 24.7%, 7월 경유는 21.5%, 휘발유는 12.6% 올랐습니다. 이 통계는 같은 물건의 값이 얼마나 변했는지를 재는 것이어서, 집집마다 몇 원을 더 냈는지는 나오지 않습니다.
 
-그래서 "미국이 이 전쟁으로 이득을 봤나"라는 질문은 답이 나오지 않는 질문입니다. 미국의 무엇을 말하는지에 따라 답이 정반대이기 때문입니다.
+알자지라 명단의 패자 쪽 숫자는 대부분 추정입니다.
 
-## 이란은 산유국인데도 가장 크게 집니다
+- **미국 납세자**: 375억 달러는 피트 헤그세스 국방장관이 7월 말 의회에 낸 그때까지의 비용으로, 항목별 내역이 없습니다. 1조 달러는 린다 빌름스 하버드 케네디스쿨 강사가 앞으로 들 예산까지 더해 내놓은 전망입니다.
+- **중동 항공사**: 국제항공운송협회가 6월 연차총회에서 2026년 한 해 43억 달러 순손실을 낼 것으로 전망했습니다. 2025년에는 72억 달러 흑자였습니다.
+- **식량 위기**: 세계식량계획(WFP)은 6월 소말리아·아프가니스탄·스리랑카에서 2026년에 끼니를 제대로 잇지 못할 사람이 나라마다 최대 수백만 명 늘 수 있다고 전망했고, 알자지라는 이를 710만 명으로 적었습니다.
 
-"산유국이 이긴다"가 왜 틀렸는지 가장 분명하게 보여주는 사례가 이란입니다.
+승자 쪽은 석 달 동안 이미 번 돈이고, 패자 쪽은 다섯 달 동안의 누적 비용, 앞으로 들 예산까지 더한 전망, 올해 한 해의 예상, 「최대 몇 명까지」라는 상한입니다. 145억 달러와 1조 달러를 나란히 놓으면 크기가 비교되는 것처럼 보이지만, 재는 기간과 방법이 달라 어느 쪽이 더 크다고 말할 수 없습니다.
 
-이란은 세계적인 산유국입니다. 그런데 이란 국내에서는 이런 일이 벌어지고 있습니다.
+## 정유사 이익에는 환율 효과도 섞여 있고, 손실 추정치는 계속 바뀐다
 
-<figure style="margin:2.4rem 0;">
-  <figcaption style="font-size:.9rem;opacity:.75;margin-bottom:1.2rem;">이란 국내 식료품 가격, 1년 전 대비</figcaption>
-  <div style="font-size:.92rem;">
-    <div style="margin-bottom:.9rem;">
-      <div style="display:flex;justify-content:space-between;margin-bottom:.3rem;"><span>식용유</span><span style="opacity:.7;">+383%</span></div>
-      <div style="height:13px;background:currentColor;opacity:.18;border-radius:3px;"><div style="height:13px;width:100%;background:currentColor;opacity:1;border-radius:3px;"></div></div>
-    </div>
-    <div style="margin-bottom:.9rem;">
-      <div style="display:flex;justify-content:space-between;margin-bottom:.3rem;"><span>계란</span><span style="opacity:.7;">+294%</span></div>
-      <div style="height:13px;background:currentColor;opacity:.18;border-radius:3px;"><div style="height:13px;width:77%;background:currentColor;opacity:1;border-radius:3px;"></div></div>
-    </div>
-    <div>
-      <div style="display:flex;justify-content:space-between;margin-bottom:.3rem;"><span>닭고기</span><span style="opacity:.7;">+177%</span></div>
-      <div style="height:13px;background:currentColor;opacity:.18;border-radius:3px;"><div style="height:13px;width:46%;background:currentColor;opacity:1;border-radius:3px;"></div></div>
-    </div>
-  </div>
-</figure>
+정유사 이익 가운데 국내 소비자가 더 낸 기름값에서 나온 부분이 얼마인지는 실적 발표에 나오지 않습니다. 정유사는 제품을 수출도 하고, 이번 분기에는 환율 효과도 더해졌습니다. 알자지라 명단은 기자가 고른 회사와 지표여서, 다른 매체는 다른 승자와 패자를 꼽을 수 있습니다.
 
-산유국인데 왜 이럴까요. 팔 수가 없기 때문입니다.
+패자 쪽 숫자는 전쟁이 끝나지 않아 앞으로 바뀝니다. 미국 국방부의 전쟁 비용도 결산을 거치면 항목별로 나오고, 그때는 375억 달러와 1조 달러 가운데 어느 쪽에 가까운지 드러납니다.
 
-<figure style="margin:2.4rem 0;">
-  <img src="/images/emptystall.png" alt="물건이 거의 남지 않은 재래시장 좌판" width="1376" height="768" loading="lazy" decoding="async" style="width:100%;height:auto;" />
-  <figcaption style="font-size:.82rem;opacity:.6;margin-top:.7rem;text-align:center;">가진 것과 팔 수 있는 것은 다릅니다. 생성형 AI로 만든 이미지입니다.</figcaption>
-</figure>
+## 내가 더 낸 기름값은 지난해 지출에 상승률을 곱하면 나온다
 
-땅속에 석유가 있어도 배가 못 나가면 소용이 없습니다. 그러는 동안 통화 가치가 무너지고, 밀과 식용유 원료를 수입하는 값은 오릅니다. 자원을 가진 것과 그 자원을 파는 것은 다른 일이고, 이 전쟁이 끊은 것은 뒤쪽입니다.
+물가 상승률을 내 지출에 곱하면 비율이 금액으로 바뀝니다. 지난해 7월 경유에 한 달 20만 원을 쓴 집이 올해 7월에도 같은 양을 넣었다고 가정해 보겠습니다. 경유값이 21.5% 올랐으니 올해는 24만3000원이 들고, 한 달에 4만3000원을 더 낸 것입니다. 휘발유를 같은 금액만큼 넣었다면 12.6% 오른 22만5200원으로, 2만5200원을 더 냈습니다.
 
-그러니 정확히 말하면 이겁니다. 산유국이 이기는 게 아니라, 지금 팔 수 있는 산유국이 이깁니다. 사우디와 러시아가 그쪽이고 이란은 아닙니다.
-
-호르무즈 해협이 실제로 어떻게 막혔는지는 [지난 글](/posts/hormuz-insurance-blockade)에서 따로 다뤘습니다. 미사일이 아니라 전쟁위험보험료가 만든 봉쇄였습니다.
-
-## 이 명단에는 한쪽이 더 잘 보입니다
-
-여기가 제가 이 자료에서 가장 오래 들여다본 대목입니다.
-
-왼쪽 칸의 숫자들을 보십시오. 145억 달러, 120억 달러, 425억 달러. 정확합니다. 소수점까지 나옵니다. 발표 날짜가 있고, 회계감사를 거쳤고, 분기마다 반복됩니다.
-
-오른쪽 칸을 보십시오. "식량 불안 인구 710만 명 추가." 이건 추정치입니다. 누가 언제 발표하는지 정해져 있지 않고, 분기마다 갱신되지 않으며, 소수점이 없습니다.
-
-<figure style="margin:2.4rem 0;">
-  <figcaption style="font-size:.9rem;opacity:.75;margin-bottom:1.2rem;">같은 전쟁, 다르게 기록되는 두 결과</figcaption>
-  <div style="display:flex;flex-wrap:wrap;gap:1.2rem;">
-    <div style="flex:1 1 240px;border:1px solid currentColor;border-radius:10px;padding:1.1rem 1.2rem;">
-      <div style="font-weight:700;margin-bottom:.7rem;">이익</div>
-      <div style="font-size:.92rem;line-height:1.9;opacity:.85;">회계에 기록됨<br>발표 날짜가 정해져 있음<br>감사를 받음<br>분기마다 갱신됨<br><strong>정확한 숫자로 남습니다</strong></div>
-    </div>
-    <div style="flex:1 1 240px;border:1px solid currentColor;border-radius:10px;padding:1.1rem 1.2rem;background:var(--ink);color:var(--paper);">
-      <div style="font-weight:700;margin-bottom:.7rem;">손실</div>
-      <div style="font-size:.92rem;line-height:1.9;opacity:.9;">통계로 추정됨<br>발표 시점이 불규칙함<br>조사 방법이 기관마다 다름<br>갱신이 늦음<br><strong>범위로만 남습니다</strong></div>
-    </div>
-  </div>
-</figure>
-
-이건 누가 숨겨서가 아닙니다. 이익은 회계 주체가 있고 손실은 없기 때문입니다. 엑손모빌은 자기 이익을 계산할 의무가 있는 법인입니다. 소말리아에서 끼니를 줄인 가구에는 그런 의무를 진 주체가 없습니다.
-
-그 결과 이렇게 됩니다. 전쟁의 손익계산서는 언제나 이익 쪽이 선명합니다. 그리고 선명한 쪽이 논의의 중심이 됩니다.
-
-미국 물가에 대한 추정치가 하나 있습니다. 5월에 나온 분석은 시나리오에 따라 미국 소비자물가 상승률이 0.6%포인트에서 1.8%포인트 더 오를 것으로 봤습니다. 식료품과 에너지까지 다 넣어서 잰 물가입니다. 이 숫자도 범위입니다. 그리고 이건 그나마 통계 체계가 촘촘한 나라의 이야기입니다.
-
-## 가격이 크게 움직이는 사건은 대개 이렇습니다
-
-가격이 크게 움직이는 모든 사건에서 같은 모양이 나옵니다.
-
-원자재 급등, 환율 급변, 금리 인상, 부동산 가격 변동. 이런 일이 벌어질 때 **이득을 본 쪽은 실적으로 발표되고, 손해를 본 쪽은 나중에 조사로 추정됩니다.**
-
-그래서 어떤 사건의 영향을 논할 때 저는 이 순서를 지키려고 합니다.
-
-1. 이 사건의 손익을 가르는 축이 무엇인가. 국적인가, 업종인가, 소유인가, 소득인가
-2. 양쪽이 같은 정확도로 측정되고 있나. 한쪽만 회계에 잡히고 있지는 않은가
-3. 안 보이는 쪽을 세는 사람이 있나. 없다면 그 손실은 논의에서 빠집니다
-
-두 번째와 세 번째를 건너뛰면, 자료가 충분한데도 결론이 한쪽으로 기웁니다.
-
-이 전쟁의 손익은 국경이 아니라 **무엇을 소유했느냐**를 따라 갈립니다. 그리고 이익은 회계에 기록되고 손실은 통계로 추정되기 때문에, **손익계산서는 언제나 이익 쪽이 더 선명하게 보입니다.** 안 보이는 쪽을 세는 사람이 없으면 그 손실은 논의에서 빠집니다.
-
-## 이란 식용유값 383% 상승은 한 매체만 전한 숫자다
-
-첫째, 이 글은 살아 있는 전쟁을 다룹니다. 숫자로 정리하는 방식이 사람이 겪는 일을 축소해 보이게 만들 수 있습니다. 710만 명이라는 숫자 뒤에는 각각의 가정이 있습니다. 저는 구조를 설명하려고 이 자료를 썼지만, 구조 설명이 그 일을 덜 심각하게 만들지는 않습니다.
-
-둘째, 이란 식료품 가격 수치의 출처가 제한적입니다. 383%, 294%, 177%는 한 매체의 보도이고 이란 정부 통계로 교차 확인하지 못했습니다. 다른 매체들의 이란 물가 보도와 방향은 일치하지만, 정확한 값으로 다루지는 않는 편이 좋겠습니다.
-
-셋째, 기업 실적이 전부 전쟁 때문은 아닙니다. 은행들의 이익 증가에는 금리 환경 같은 다른 요인이 섞여 있습니다. 알자지라가 승자 명단에 올렸다고 해서 그 이익 전부가 전쟁에서 왔다는 뜻은 아닙니다.
-
-넷째, "소유가 축"이라는 설명이 유일한 축은 아닙니다. 지리적 위치, 에너지 수입 의존도, 재정 여력도 함께 작동합니다. 저는 이 자료에서 가장 뚜렷하게 보이는 축을 골랐을 뿐입니다.
+이 계산은 전국 평균 상승률을 쓴 것이어서, 다니는 주유소 값이 평균보다 더 올랐거나 덜 올랐으면 실제로 더 낸 돈도 달라집니다. 카드 명세서에서 지난해와 올해 같은 달 주유 금액을 찾아 비교하면 상승률 대신 실제 금액이 나옵니다.
