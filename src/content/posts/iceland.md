@@ -1,138 +1,109 @@
 ---
-title: "아이슬란드 EU 협상 재개 부결, 안보보다 무거웠던 어업권"
-description: 물은 것은 가입 여부가 아니라 2013년에 중단된 협상을 다시 시작할지였습니다. 수산업 비중 8%의 나라에서 어업이 안보를 눌렀습니다. 논리의 강약이 아니라 이익과 손실이 놓인 모양을 보면, 송전선과 발전소 입지 기사도 같은 그림으로 읽힙니다.
+title: "EU 법 9000건은 따르고 어업은 지켜 온 아이슬란드, 협상 재개도 부결"
+description: 아이슬란드 국민투표는 EU 가입이 아니라 협상 재개만 물었는데도 반대가 52.8%였습니다. EU 법 대부분을 이미 따르는 나라에서 가입하면 크게 바뀌는 것은 어업 규칙과 EU 안의 표결권이었고, 유권자는 협상 결과를 보기 전에 답을 정했습니다.
 pubDate: 2026-09-07
 tags: ['구조 읽기', '판단하는 법']
 cover: '/images/trawlerquay.png'
 coverAlt: '북대서양 어항에 접안한 트롤 어선과 부두에 쌓인 그물. 생성형 AI로 만든 이미지입니다.'
 references:
-  - title: 'Iceland rejects reopening EU talks in closely fought referendum'
-    url: 'https://www.cnbc.com/2026/08/30/iceland-eu-accession-referendum-result.html'
-    source: CNBC
-    date: 2026-08-30
+  - title: 'Tilkynning um niðurstöðu talningar við þjóðaratkvæðagreiðslu 29. ágúst 2026'
+    url: 'https://island.is/s/landskjorstjorn/frett/tilkynning-um-nidurstodu-talningar-vid-thjodaratkvaedagreidslu-29-agust-2026'
+    source: '아이슬란드 국가선거위원회(Landskjörstjórn)'
+    date: '2026-08-30'
+  - title: 'Þjóðaratkvæðagreiðsla 2026'
+    url: 'https://island.is/v/thjodaratkvaedagreidsla-2026'
+    source: '아이슬란드 정부 포털(island.is)'
+  - title: 'Iceland says ''No'': Four takeaways from the EU accession referendum'
+    url: 'https://www.euronews.com/my-europe/2026/08/30/iceland-says-no-four-takeaways-from-the-eu-accession-referendum'
+    source: 'Euronews'
+    date: '2026-08-30'
   - title: 'Icelandic voters reject a proposal to restart negotiations to join the European Union'
-    url: 'https://www.washingtontimes.com/news/2026/aug/30/voters-iceland-reject-proposal-restart-negotiations-join-european/'
-    source: The Washington Times
-    date: 2026-08-30
-  - title: 'Iceland Votes No on EU Accession Talks in Knife-Edge Referendum'
-    url: 'https://www.hngn.com/articles/272883/20260829/iceland-votes-saturday-eu-talks-fish-euros-fear-trump-are-all-ballot.htm'
-    source: HNGN
-    date: 2026-08-29
-  - title: 'Iceland EU accession referendum 2026 — Results'
-    url: 'https://electiomap.com/iceland/referendum/2026'
-    source: ElectioMap
-  - title: 'Iceland rejected EU talks, but the country is split almost in half'
-    url: 'https://www.nordiskpost.com/2026/08/30/iceland-eu-referendum-no-membership-talks/'
-    source: Nordisk Post
-    date: 2026-08-30
+    url: 'https://www.pbs.org/newshour/amp/world/icelandic-voters-reject-a-proposal-to-restart-negotiations-to-join-the-european-union'
+    source: 'PBS NewsHour(AP)'
+    date: '2026-08-31'
+  - title: 'Trump''s Greenland threat fails to prove decisive in Iceland EU vote'
+    url: 'https://www.newsweek.com/trumps-greenland-threat-fails-to-prove-decisive-in-iceland-eu-vote-12385002'
+    source: 'Newsweek'
+    date: '2026-08-30'
+  - title: 'Iceland Rejects Restarting EU Accession Talks'
+    url: 'https://www.icelandreview.com/news/iceland-rejects-eu-accession-talks-referendum-2026/'
+    source: 'Iceland Review'
+    date: '2026-08-30'
+  - title: 'Nýr þjóðarpúls: Aðeins fleiri segja nei'
+    url: 'https://www.ruv.is/frettir/innlent/2026-08-27-nyr-thjodarpuls-adeins-fleiri-segja-nei-485068'
+    source: 'RÚV'
+    date: '2026-08-27'
 ---
 
-8월 29일 아이슬란드 국민투표는 부결로 끝났습니다. 보도에 따라 조금씩 다르지만 대략 52%대 47%, 5퍼센트포인트 남짓의 차이였습니다. 투표가 물은 것은 EU 가입 여부가 아니라 2013년에 중단된 가입 협상을 다시 시작할지였습니다.
+수도 레이캬비크 북부 선거구에서는 EU 협상 재개에 찬성한 표가 57.5%였습니다. 서쪽 해안 어촌이 많은 북서부 선거구에서는 반대가 62.9%였습니다.
 
-<figure style="margin:2.4rem 0;text-align:center;">
-  <div style="font-size:2.8rem;font-weight:700;line-height:1;letter-spacing:-0.02em;">52 : 47</div>
-  <div style="font-size:.92rem;opacity:.7;margin-top:.7rem;">2026년 8월 29일 아이슬란드 국민투표. 유권자 약 27만 2000명, 투표율은 2024년 총선(80%) 수준 이상</div>
-</figure>
+8월 29일 투표 결과를 여섯 선거구로 나누면 찬성이 앞선 곳은 레이캬비크 두 곳뿐입니다. 어업 고용이 많은 북서부·북동부·남부는 모두 60% 넘게 반대했고, Euronews가 전한 갤럽 조사에서는 어업 회사 열 곳 중 아홉이 가입에 반대했습니다. 어업 비중이 작은 수도권도 반대가 더 많았습니다. 레이캬비크 주변 도시로 이루어진 남서부 선거구는 반대 53.0%, 찬성 47.0%였습니다. 이 선거구의 선택은 어업만으로는 설명되지 않습니다.
 
-협상을 먼저 해 보고, 조건이 나오면 그때 다시 국민에게 물으면 된다는 설계였습니다. 작은 질문이었는데, 유권자는 큰 질문으로 답했습니다. 이 결과는 보통 안보 논리가 자원 주권 논리에 밀린 것으로 설명됩니다. 러시아의 위협 앞에서 유럽과 단단히 묶이자는 쪽이, 어획 할당량을 브뤼셀에 넘기지 말자는 쪽에 졌다는 식입니다.
+## 투표가 물은 것은 가입이 아니라 협상 재개였다
 
-갈라진 지도를 보면 다른 것이 보입니다. 가입이 주는 안보 이익은 전 국민에게 조금씩, 먼 미래에, 확률로 돌아옵니다. 어업 통제권 상실은 특정 지역에 크게, 당장, 규정으로 닥칩니다. 수산업은 아이슬란드 국내총생산의 약 8%인데도 이겼습니다. 얇게 퍼진 이익과 두껍게 뭉친 손실이 맞붙으면 대개 뭉친 쪽이 이깁니다. 이 배치를 한 번 보아 두면 송전선 경로와 발전소 입지, 자유무역협정 찬반 기사가 같은 그림으로 읽힙니다.
+투표용지의 질문은 「아이슬란드가 EU 가입 협상을 다시 시작해야 하는가」였고, 답은 예와 아니오 둘이었습니다. 아이슬란드는 금융위기 직후인 2009년 EU 가입을 신청해 협상하다가 2013년 멈췄습니다. 2024년 말 출범한 연립정부가 2027년 전에 협상 재개를 국민에게 묻기로 합의했고, 그 약속이 이번 투표였습니다.
 
-## 지도가 갈렸습니다
-
-투표 결과는 지역별로 뚜렷하게 갈렸습니다. 수도 레이캬비크에서는 찬성이 우세했고, 수산업 비중이 큰 지방에서는 반대가 압도적이었습니다. 개표가 수도 밖에서 들어오기 시작하면서 반대가 앞서갔습니다.
-
-무엇이 걸려 있었는지는 분명합니다. EU에 가입하면 공동어업정책이 적용됩니다. 어획 할당량을 결정하는 권한의 상당 부분이 브뤼셀로 넘어갑니다.
-
-아이슬란드에서 수산업은 국내총생산의 약 8%입니다. 숫자만 보면 압도적이지 않습니다. 그런데 이 나라는 20세기에 영국과 '대구 전쟁'을 세 차례 치렀습니다. 어업 관할권을 놓고 실제로 군함이 오간 분쟁이었습니다.
-
-찬성 쪽이 내세운 것은 안보였습니다. 러시아의 위협이 커지는 상황에서 유럽과 더 단단히 묶여야 한다는 논리입니다. 북대서양 한가운데의 작은 나라에게 이건 추상적인 이야기가 아닙니다.
-
-**그럼에도 어업이 이겼습니다.**
-
-## 이건 논리의 강약 문제가 아닙니다
-
-이 결과를 흔히 "안보 논리가 자원 주권 논리에 밀렸다"고 설명합니다. 틀린 말은 아닙니다. 다만 저는 두 논리가 놓인 모양이 달랐다고 보는 편이 정확하다고 생각합니다.
+국가선거위원회가 8월 30일 발표한 결과는 반대 11만8040표, 찬성 10만5339표였습니다. 유권자 27만2591명 가운데 82.6%가 투표해 2024년 총선보다 투표율이 높았습니다. 투표 사흘 전 갤럽 조사에서도 반대가 조금 많았지만, RÚV는 그 차이가 통계적으로 의미 있는 수준은 아니라고 전했습니다.
 
 <figure style="margin:2.4rem 0;">
-  <figcaption style="font-size:.9rem;opacity:.75;margin-bottom:1.2rem;">같은 나라 안에서, 두 가지가 놓인 모양</figcaption>
-  <div style="margin-bottom:1.4rem;">
-    <div style="font-size:.86rem;opacity:.7;margin-bottom:.5rem;">EU 가입이 주는 <strong>안보 이익</strong></div>
-    <div style="display:flex;flex-wrap:wrap;gap:.4rem;">
-      <span style="border:1px dashed currentColor;border-radius:8px;padding:.3rem .75rem;font-size:.85rem;opacity:.6;">전 국민에게</span>
-      <span style="border:1px dashed currentColor;border-radius:8px;padding:.3rem .75rem;font-size:.85rem;opacity:.6;">조금씩</span>
-      <span style="border:1px dashed currentColor;border-radius:8px;padding:.3rem .75rem;font-size:.85rem;opacity:.6;">먼 미래에</span>
-      <span style="border:1px dashed currentColor;border-radius:8px;padding:.3rem .75rem;font-size:.85rem;opacity:.6;">확률로</span>
-    </div>
+  <figcaption style="font-size:.9rem;opacity:.75;margin-bottom:1.2rem;">선거구별 협상 재개 찬성 비율 (2026년 8월 29일, 세로선은 50%)</figcaption>
+
+  <div style="margin-bottom:1rem;">
+    <div style="display:flex;justify-content:space-between;font-size:.84rem;margin-bottom:.3rem;gap:1rem;"><span>레이캬비크 북부</span><span style="font-weight:700;">57.5%</span></div>
+    <div style="position:relative;height:14px;"><div style="position:absolute;left:50%;top:-3px;bottom:-3px;width:2px;background:currentColor;opacity:.6;"></div><div style="width:57.5%;height:14px;background:currentColor;border-radius:4px;"></div></div>
+  </div>
+  <div style="margin-bottom:1rem;">
+    <div style="display:flex;justify-content:space-between;font-size:.84rem;margin-bottom:.3rem;gap:1rem;"><span>레이캬비크 남부</span><span style="font-weight:700;">54.5%</span></div>
+    <div style="position:relative;height:14px;"><div style="position:absolute;left:50%;top:-3px;bottom:-3px;width:2px;background:currentColor;opacity:.6;"></div><div style="width:54.5%;height:14px;background:currentColor;border-radius:4px;"></div></div>
+  </div>
+  <div style="margin-bottom:1rem;">
+    <div style="display:flex;justify-content:space-between;font-size:.84rem;margin-bottom:.3rem;gap:1rem;"><span>남서부 수도권</span><span style="font-weight:700;">47.0%</span></div>
+    <div style="position:relative;height:14px;"><div style="position:absolute;left:50%;top:-3px;bottom:-3px;width:2px;background:currentColor;opacity:.6;"></div><div style="width:47%;height:14px;background:currentColor;opacity:.55;border-radius:4px;"></div></div>
+  </div>
+  <div style="margin-bottom:1rem;">
+    <div style="display:flex;justify-content:space-between;font-size:.84rem;margin-bottom:.3rem;gap:1rem;"><span>남부</span><span style="font-weight:700;">39.5%</span></div>
+    <div style="position:relative;height:14px;"><div style="position:absolute;left:50%;top:-3px;bottom:-3px;width:2px;background:currentColor;opacity:.6;"></div><div style="width:39.5%;height:14px;background:currentColor;opacity:.55;border-radius:4px;"></div></div>
+  </div>
+  <div style="margin-bottom:1rem;">
+    <div style="display:flex;justify-content:space-between;font-size:.84rem;margin-bottom:.3rem;gap:1rem;"><span>북동부</span><span style="font-weight:700;">38.8%</span></div>
+    <div style="position:relative;height:14px;"><div style="position:absolute;left:50%;top:-3px;bottom:-3px;width:2px;background:currentColor;opacity:.6;"></div><div style="width:38.8%;height:14px;background:currentColor;opacity:.55;border-radius:4px;"></div></div>
   </div>
   <div>
-    <div style="font-size:.86rem;opacity:.7;margin-bottom:.5rem;">가입이 가져올 <strong>어업 통제권 상실</strong></div>
-    <div style="display:flex;flex-wrap:wrap;gap:.4rem;">
-      <span style="border-radius:8px;padding:.3rem .8rem;font-size:.85rem;background:var(--ink);color:var(--paper);font-weight:600;">특정 지역에</span>
-      <span style="border-radius:8px;padding:.3rem .8rem;font-size:.85rem;background:var(--ink);color:var(--paper);font-weight:600;">크게</span>
-      <span style="border-radius:8px;padding:.3rem .8rem;font-size:.85rem;background:var(--ink);color:var(--paper);font-weight:600;">당장</span>
-      <span style="border-radius:8px;padding:.3rem .8rem;font-size:.85rem;background:var(--ink);color:var(--paper);font-weight:600;">규정으로</span>
-    </div>
+    <div style="display:flex;justify-content:space-between;font-size:.84rem;margin-bottom:.3rem;gap:1rem;"><span>북서부</span><span style="font-weight:700;">37.1%</span></div>
+    <div style="position:relative;height:14px;"><div style="position:absolute;left:50%;top:-3px;bottom:-3px;width:2px;background:currentColor;opacity:.6;"></div><div style="width:37.1%;height:14px;background:currentColor;opacity:.55;border-radius:4px;"></div></div>
   </div>
+
+  <figcaption style="font-size:.84rem;opacity:.6;margin-top:.8rem;">진한 막대는 찬성이 과반인 선거구입니다. 선거구별 비율은 Newsweek와 Euronews 보도 기준입니다</figcaption>
 </figure>
 
-네 항목이 모두 반대 방향입니다.
+## 어업 수역은 1976년에 지켜 냈고, 가입하면 어획량은 EU 이사회가 정한다
 
-**이익은 넓고 얇게 퍼져 있고, 손실은 좁고 두껍게 뭉쳐 있습니다.**
+어업은 아이슬란드 국내총생산의 약 8%, 수출의 약 40%를 차지합니다. 아이슬란드는 1958년부터 1976년까지 어업 수역을 놓고 영국과 세 차례 「대구 전쟁」으로 불린 충돌을 겪었고, 그 끝에 해안에서 200해리까지를 자국 어업 수역으로 인정받았습니다. 그 뒤로 자국 수역의 어획량은 아이슬란드 정부가 정해 왔습니다.
 
-이 차이가 만드는 결과는 예측 가능합니다. 손실이 뭉쳐 있는 쪽은 조직됩니다. 자기 문제라는 것을 알고, 서로를 알고, 투표소에 갑니다. 이익이 퍼져 있는 쪽은 조직되지 않습니다. 각자에게 돌아오는 몫이 작아서 그것을 위해 따로 움직일 이유가 약하기 때문입니다.
+EU에 가입하면 공동어업정책이 적용됩니다. 어종별로 한 해 잡을 수 있는 양은 회원국 장관들이 모이는 EU 이사회가 정하고, 나라별 몫은 과거 어획 실적에 따라 나눕니다. 연안 가까운 바다를 빼면 회원국 어선끼리 서로의 바다에서 조업할 수도 있습니다. AP는 반대 운동을 이끈 수산업계가 스페인이나 네덜란드 트롤 어선이 들어올 수 있다는 점을 걱정했다고 전했습니다.
 
-레이캬비크와 어촌으로 갈린 지도는 찬반의 지도가 아니라 이 비대칭의 지도라고 보는 편이 정확할 것 같습니다.
+정부는 협상에서 어업 관할권을 온전히 지키겠다고 했습니다. Euronews에 따르면 유럽위원회도 창의적인 해법을 찾아보겠다고 답했지만, 어떤 예외를 받을지는 협상을 해 봐야 알 수 있었습니다. 투표 때 유권자가 확인할 수 있었던 것은 지금의 공동어업정책뿐이었습니다.
 
-## 확률과 규정은 무게가 다릅니다
+## 그린란드 발언에도 안보를 내세운 찬성은 과반에 못 미쳤다
 
-또 하나 있습니다.
+찬성 측은 안보와 경제를 내세웠습니다. 트럼프 미국 대통령이 그린란드를 차지하겠다고 거듭 말하자, 찬성 측은 아이슬란드가 NATO 회원국이어도 유럽과 더 단단히 묶여야 안전하다고 주장했습니다. 소르게르뒤르 카트린 귄나르스도티르 외교장관은 2차 세계대전 이후 이어진 국제 질서가 흔들리고 있다고 말했습니다. 변동이 큰 아이슬란드 화폐 크로나 대신 유로를 쓰면 물가와 금리가 내려간다는 주장도 나왔습니다.
 
-안보 이익은 확률로 존재합니다. 위협이 현실화될 수도, 안 될 수도 있습니다. 현실화되더라도 EU 가입이 얼마나 도움이 될지는 사후에야 알 수 있습니다.
+Newsweek는 결과를 두고 그린란드 위협이 결정적 변수가 되지 못했다고 평가했습니다. 제1야당인 독립당의 귀드룬 하프스테인스도티르 대표는 핵심 의사결정을 EU 본부가 있는 브뤼셀로 넘길지가 쟁점이라고 했습니다.
 
-반면 공동어업정책은 규정입니다. 가입하면 적용되고, 조문에 적혀 있고, 언제부터 무엇이 달라지는지 읽을 수 있습니다.
+## 이미 EU 법 9000건을 따르며 단일시장 규칙을 적용받고 있었다
 
-사람은 확정된 손실을 확률적 이득보다 무겁게 셉니다. 이건 아이슬란드 유권자의 특성이 아니라 일반적인 셈법입니다.
+Euronews는 어업과 함께 지금의 관계를 바꾸지 않으려는 선택을 결과의 배경으로 꼽았습니다. 아이슬란드는 EU 회원국이 아닌데도 유럽경제지역(EEA) 협정으로 어업·농업 정책을 뺀 단일시장 규칙을 적용받습니다. 아이슬란드 회사는 EU 회사와 같은 규칙으로 물건과 서비스를 팔고, 국민은 EU 안에서 일자리를 구할 수 있습니다. 여권 검사 없이 국경을 넘는 솅겐 지역, 탄소배출권 거래제, 대학생 교류 프로그램 에라스뮈스에도 참여합니다. 대신 EU 법 약 9000건을 받아들였고, 그 법을 만들 때 표결에는 참여하지 못합니다.
 
-그러니 안보 논리는 애초에 불리한 형태로 싸운 셈입니다. 내용이 약해서가 아니라 모양이 달라서입니다.
+반대 측은 주권을 잃지 않고도 단일시장과 솅겐의 혜택을 이미 누린다고 강조했습니다. 크리스트룬 프로스타도티르 총리도 국민이 지금의 EEA 관계에 만족한다는 뜻으로 결과를 받아들였습니다.
 
-## 작게 물었는데 크게 답한 이유
+EEA로 EU와 묶인 노르웨이도 1972년과 1994년 두 번 국민투표에서 가입을 거부했습니다. 노르웨이는 협상을 마친 뒤 가입 자체를 물었다는 점에서 이번 투표와 다릅니다. Euronews는 아이슬란드의 표 차이가 51.89% 대 48.11%였던 2016년 영국의 EU 탈퇴 투표와 거의 같다고 짚었습니다.
 
-앞에서 남겨 둔 어긋남으로 돌아가 봅시다. 투표는 '협상 재개'만 물었습니다. 가입을 확정하는 투표가 아니었습니다.
+## 어업이 표를 갈랐다는 말은 선거구 단위 결과에서 나온 해석이다
 
-설득 논리는 이랬을 겁니다. *일단 협상해서 조건을 받아 보자. 어업에서 좋은 조건을 못 얻으면 그때 거부하면 된다.*
+공개된 결과는 선거구별 비율까지입니다. 어업에 종사하는 사람이 실제로 얼마나 반대했는지, 수도권 유권자가 어업과 EEA와 통화 가운데 무엇을 보고 반대했는지는 선거구 단위 결과로 알 수 없습니다. 어업이 무엇보다 컸다는 Euronews의 평가와 그린란드 위협이 결정적이지 않았다는 Newsweek의 평가도 선거구 지도와 여론조사, 선거 운동을 보고 내린 해석입니다.
 
-합리적으로 들립니다. 유권자들은 그렇게 받아들이지 않았습니다.
+국가선거위원회는 이의가 제기된 표를 판정한 뒤 최종 결과를 따로 공표한다고 밝혔습니다. 무효표와 백지표를 모두 합해도 1652표로, 찬반 표 차이 1만2701표에 크게 못 미칩니다.
 
-**협상이 시작되면 되돌리기 어렵다는 것을 알기 때문**이라고 봅니다. 협상에는 관성이 있습니다. 시간과 인력이 투입되고, 상대국과 약속이 쌓이고, 중간에 그만두면 그동안의 비용이 매몰됩니다. 그리고 '여기까지 왔는데'라는 말이 그때부터 힘을 얻습니다.
+## 정부는 2년 안에 큰 변화가 없으면 협상 재개를 다시 꺼내지 않는다
 
-작게 물어서 큰 것을 얻으려는 전략은 상대가 그 전략을 알아볼 때 실패합니다. 이번이 그런 경우로 보입니다.
-
-## 송전선과 발전소 입지에서도 되풀이됩니다
-
-이 구조는 낯설지 않습니다.
-
-- 자유무역협정은 소비자 다수에게 얇은 이익을, 특정 산업에 두꺼운 손실을 줍니다. 그래서 반대는 늘 조직적이고 찬성은 늘 흩어져 있습니다
-- 송전선과 발전소 입지는 전력망 전체에 이익을, 통과 지역에 비용을 집중시킵니다
-- 재생에너지 부지도 마찬가지입니다. 탄소 감축은 모두의 몫이고 부지 손실은 한 마을의 몫입니다
-
-이 목록에서 반복되는 것은 어느 쪽이 옳으냐가 아닙니다. 이익과 비용이 놓인 모양입니다.
-
-그리고 여기서 조심할 게 있습니다. 이 구조를 이해했다고 해서 "소수의 반대를 눌러야 한다"는 결론이 나오지는 않습니다. **집중된 손실을 입는 쪽의 반대는 대개 정당합니다.** 그들은 실제로 잃습니다.
-
-이 구조가 말해 주는 것은 다른 것입니다. 이익이 넓고 얇을 때, 그 이익을 근거로 사람들을 설득하는 일은 논리가 옳아도 잘 안 된다는 것. 그리고 그런 사안에서는 설득보다 **집중된 손실을 어떻게 보상할 것인가**가 실질적인 관건이 된다는 것입니다.
-
-이번 투표에서 그 보상 설계가 얼마나 구체적으로 제시됐는지, 저는 확인하지 못했습니다. 다만 5퍼센트포인트 차이라면 그 부분이 결과를 갈랐을 가능성은 충분히 있습니다.
-
-## 반대 52.5%와 52.8%는 보도마다 다르게 전한 숫자다
-
-- 수치가 출처마다 조금씩 다릅니다. 반대 비율이 52.5%에서 52.8% 사이로 보도됐습니다. 글에서 개략적으로 적은 이유입니다.
-- 지역별 세부 결과를 확인하지 못했습니다. '수도는 찬성, 어업 지역은 반대'라는 큰 그림은 여러 보도에서 일치하지만, 저는 선거구별 수치를 직접 보지는 못했습니다.
-- 어업만이 이유는 아닐 것입니다. 통화 주권, 유럽 정치에 대한 일반적 회의, 정부에 대한 평가 같은 요인이 함께 작용했을 수 있습니다. 저는 가장 자주 지목된 요인 하나를 축으로 삼았습니다.
-- '이익이 분산되면 진다'는 것은 경향이지 법칙이 아닙니다. 분산된 이익이 이기는 경우도 많습니다. 이 글은 그런 경우가 왜 어려운지를 설명한 것이지, 불가능하다고 말한 것이 아닙니다.
-
-## 얇게 퍼진 이익, 두껍게 쌓인 손실
-
-아이슬란드 국민투표는 유럽에 대한 찬반을 물은 것처럼 보도됐습니다. 지도를 펴 보면 다른 것이 보입니다. **이익은 온 나라에 얇게 퍼져 있었고, 손실은 몇몇 항구에 두껍게 쌓여 있었습니다.**
-
-이런 모양에서는 대개 뭉친 쪽이 이깁니다. 논리가 더 옳아서가 아니라, 잃을 것이 분명한 사람은 투표소에 가고 얻을 것이 희미한 사람은 덜 가기 때문입니다. 그러니 이 결과가 말해 주는 것은 안보 논리가 약했다는 쪽보다, 넓고 얇은 이익을 근거로 사람을 설득하려면 다른 방법이 필요하다는 쪽에 가깝습니다.
+투표는 법적 효력이 없는 자문형이었습니다. 정부는 결과를 받아들여 협상 재개를 추진하지 않기로 했고, 프로스타도티르 총리는 앞으로 24개월 안에 큰 변화가 있어야 이 문제가 다시 의제에 오를 것이라고 말했습니다. 유럽위원회는 아이슬란드가 EEA로 가까운 파트너로 남는다고 밝혔습니다.
